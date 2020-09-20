@@ -245,14 +245,26 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-denotation" />
          </item>
 	     
-         <item name="Atlas cedar" de.name="Atlas-Zeder" fr.name="Cèdre de l'Atlas" type="node">
+         <item name="Atlas cedar" de.name="Atlas-Zeder" fr.name="cèdre de l'Himalaya" type="node">
            <key key="natural" value="tree" />
            <key key="taxon" value="Cedrus atlantica" />
            <key key="taxon:de" value="Atlas-Zeder" />
            <key key="taxon:en" value="Atlas cedar" />
-           <key key="taxon:fr" value="Cèdre de l'Atlas" />
+           <key key="taxon:fr" value="cèdre de l'Himalaya" />
            <key key="genus" value="Cedrus" />
            <key key="species" value="atlantica" />
+           <key key="leaf_cycle" value="evergreen" />
+           <key key="leaf_type" value="needleleaved" />
+           <reference ref="tree-denotation" />
+         </item>
+         <item name="Himalayan cedar" de.name="Himalaya-Zeder" fr.name="Cèdre de l'Atlas" type="node">
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Cedrus deodara" />
+           <key key="taxon:de" value="Himalaya-Zeder" />
+           <key key="taxon:en" value="Himalayan cedar" />
+           <key key="taxon:fr" value="Cèdre de l'Atlas" />
+           <key key="genus" value="Cedrus" />
+           <key key="species" value="deodara" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -331,6 +343,17 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
             </item>
+            <item name="box elder" cs.name="" de.name="Eschen-Ahorn" fr.name="Érable negundo" type="node">
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Acer negundo" />
+              <key key="taxon:cs" value="" />
+              <key key="taxon:de" value="Eschen-Ahorn" />
+              <key key="taxon:en" value="box elder" />
+              <key key="taxon:fr" value="Érable negundo" />
+              <key key="genus" value="Acer" />
+              <key key="species" value="negundo" />
+              <reference ref="tree-denotation" />
+            </item>
          </group> <!-- Acer -->    
 
          <group name="Beeches" cs.name="Buk" de.name="Buchen" fr.name="hêtres">
@@ -357,6 +380,19 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="taxon:fr" value="" />
                <key key="genus" value="Fagus" />
                <key key="species" value="Sylvatica purpurea" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+            </item>
+            <item name="weeping beech" cs.name="" de.name="Hänge-Buche" fr.name="Hêtre pleureur" type="node">
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Fagus Sylvatica pendula" />
+               <key key="taxon:cs" value="" />
+               <key key="taxon:de" value="Hänge-Buche" />
+               <key key="taxon:en" value="weeping beech" />
+               <key key="taxon:fr" value="Hêtre pleureur" />
+               <key key="genus" value="Fagus" />
+               <key key="species" value="Sylvatica pendula" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -843,6 +879,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
          </item>
+         
          <item name="common hazel" cs.name="Líska Obecná" de.name="Haselnussstrauch" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Corylus Avellana" />
@@ -851,6 +888,18 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="taxon:en" value="common hazel" />
             <key key="genus" value="Corylus" />
             <key key="species" value="Avellana" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+         </item>
+         <item name="Turkish hazel" cs.name="" de.name="Baum-Hasel" type="node">
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Corylus colurna" />
+            <key key="taxon:cs" value="" />
+            <key key="taxon:de" value="Baum-Hasel" />
+            <key key="taxon:en" value="Turkish hazel" />
+            <key key="genus" value="Corylus" />
+            <key key="species" value="colurna" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
