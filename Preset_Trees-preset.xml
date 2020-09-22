@@ -127,7 +127,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Pinus sylvestris" />
               <key key="genus" value="Pinus" />
-              <key key="species" value="sylvestris" />
+              <key key="species" value="Pinus sylvestris" />
               <key key="leaf_cycle" value="evergreen" />
               <key key="leaf_type" value="needleleaved" />
               <reference ref="tree-denotation" />
@@ -137,7 +137,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Pinus mugo" />
               <key key="genus" value="Pinus" />
-              <key key="species" value="mugo" />
+              <key key="species" value="Pinus mugo" />
               <key key="leaf_cycle" value="evergreen" />
               <key key="leaf_type" value="needleleaved" />
               <reference ref="tree-denotation" />
@@ -147,7 +147,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Pinus strobus" />
               <key key="genus" value="Pinus" />
-              <key key="species" value="strobus" />
+              <key key="species" value="Pinus strobus" />
               <key key="leaf_cycle" value="evergreen" />
               <key key="leaf_type" value="needleleaved" />
               <reference ref="tree-denotation" />
@@ -161,7 +161,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Sequoia sempervirens" />
                <key key="genus" value="Sequoia" />
-               <key key="species" value="sempervirens" />
+               <key key="species" value="Sequoia sempervirens" />
                <key key="leaf_cycle" value="evergreen" />
                <key key="leaf_type" value="needleleaved" />
                <reference ref="tree-denotation" />
@@ -171,7 +171,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Metasequoia glyptostroboides" />
                <key key="genus" value="Metasequoia" />
-               <key key="species" value="glyptostroboides" />
+               <key key="species" value="Metasequoia glyptostroboides" />
                <key key="leaf_cycle" value="evergreen" />
                <key key="leaf_type" value="needleleaved" />
                <reference ref="tree-denotation" />
@@ -181,7 +181,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Sequoiadendron giganteum" />
                <key key="genus" value="Sequoiadendron" />
-               <key key="species" value="giganteum" />
+               <key key="species" value="Sequoiadendron giganteum" />
                <key key="leaf_cycle" value="evergreen" />
                <key key="leaf_type" value="needleleaved" />
                <reference ref="tree-denotation" />
@@ -193,7 +193,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Picea abies" />
            <key key="genus" value="Picea" />
-           <key key="species" value="abies" />
+           <key key="species" value="Picea abies" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -203,7 +203,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Picea pungens" />
            <key key="genus" value="Picea" />
-           <key key="species" value="pungens" />
+           <key key="species" value="Picea pungens" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -213,7 +213,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Pseudotsuga menziesii" />
            <key key="genus" value="Pseudotsuga" />
-           <key key="species" value="menziesii" />
+           <key key="species" value="Pseudotsuga menziesii" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -223,7 +223,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Taxus baccata" />
            <key key="genus" value="Taxus" />
-           <key key="species" value="baccata" />
+           <key key="species" value="Taxus baccata" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -233,7 +233,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Larix decidua" />
            <key key="genus" value="Larix" />
-           <key key="species" value="decidua" />
+           <key key="species" value="Larix decidua" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -244,7 +244,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Cedrus atlantica" />
            <key key="genus" value="Cedrus" />
-           <key key="species" value="atlantica" />
+           <key key="species" value="Cedrus atlantica" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -254,7 +254,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Cedrus deodara" />
            <key key="genus" value="Cedrus" />
-           <key key="species" value="deodara" />
+           <key key="species" value="Cedrus deodara" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
            <reference ref="tree-denotation" />
@@ -290,7 +290,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer pseudoplatanus" />
               <key key="genus" value="Acer" />
-              <key key="species" value="pseudoplatanus" />
+              <key key="species" value="Acer pseudoplatanus" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -300,7 +300,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer platanoides" />
               <key key="genus" value="Acer" />
-              <key key="species" value="platanoides" />
+              <key key="species" value="Acer platanoides" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -310,7 +310,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer campestre" />
               <key key="genus" value="Acer" />
-              <key key="species" value="campestre" />
+              <key key="species" value="Acer campestre" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -320,7 +320,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer saccharinum" />
               <key key="genus" value="Acer" />
-              <key key="species" value="saccharinum" />
+              <key key="species" value="Acer saccharinum" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -330,7 +330,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer negundo" />
               <key key="genus" value="Acer" />
-              <key key="species" value="negundo" />
+              <key key="species" value="Acer negundo" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -344,7 +344,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Fagus sylvatica" />
                <key key="genus" value="Fagus" />
-               <key key="species" value="sylvatica" />
+               <key key="species" value="Fagus sylvatica" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -354,7 +354,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Fagus sylvatica purpurea" />
                <key key="genus" value="Fagus" />
-               <key key="species" value="sylvatica purpurea" />
+               <key key="species" value="Fagus sylvatica" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -364,7 +364,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Fagus sylvatica pendula" />
                <key key="genus" value="Fagus" />
-               <key key="species" value="sylvatica pendula" />
+               <key key="species" value="Fagus sylvatica" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -378,7 +378,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Betula pendula" />
                <key key="genus" value="Betula" />
-               <key key="species" value="pendula" />
+               <key key="species" value="Betula pendula" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -388,7 +388,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Betula pubescens" />
                <key key="genus" value="Betula" />
-               <key key="species" value="pubescens" />
+               <key key="species" value="Betula pubescens" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -401,7 +401,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Aesculus hippocastanum" />
               <key key="genus" value="Aesculus" />
-              <key key="species" value="hippocastanum" />
+              <key key="species" value="Aesculus hippocastanum" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -412,7 +412,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="taxon" value="Castanea sativa" />
               <key key="taxon:cs" value="" />
               <key key="genus" value="Castanea" />
-              <key key="species" value="sativa" />
+              <key key="species" value="Castanea sativa" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -437,7 +437,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Tilia cordata" />
                <key key="genus" value="Tilia" />
-               <key key="species" value="cordata" />
+               <key key="species" value="Tilia cordata" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -447,7 +447,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Tilia platyphyllos" />
                <key key="genus" value="Tilia" />
-               <key key="species" value="platyphyllos" />
+               <key key="species" value="Tilia platyphyllos" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -472,7 +472,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Quercus robur" />
                <key key="genus" value="Quercus" />
-               <key key="species" value="robur" />
+               <key key="species" value="Quercus robur" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -482,7 +482,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Quercus petraea" />
                <key key="genus" value="Quercus" />
-               <key key="species" value="petraea" />
+               <key key="species" value="Quercus petraea" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -492,7 +492,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Quercus rubra" />
                <key key="genus" value="Quercus" />
-               <key key="species" value="rubra" />
+               <key key="species" value="Quercus rubra" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -518,7 +518,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Populus nigra" />
                <key key="genus" value="Populus" />
-               <key key="species" value="nigra" />
+               <key key="species" value="Populus nigra" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -528,7 +528,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Populus alba" />
                <key key="genus" value="Populus" />
-               <key key="species" value="alba" />
+               <key key="species" value="Populus alba" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -553,7 +553,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Platanus acerifolia" />
                <key key="genus" value="Platanus" />
-               <key key="species" value="acerifolia" />
+               <key key="species" value="Platanus acerifolia" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -563,7 +563,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Platanus orientalis" />
                <key key="genus" value="Platanus" />
-               <key key="species" value="orientalis" />
+               <key key="species" value="Platanus orientalis" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -588,7 +588,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Salix alba" />
                <key key="genus" value="Salix" />
-               <key key="species" value="alba" />
+               <key key="species" value="Salix alba" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -598,7 +598,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Salix caprea" />
                <key key="genus" value="Salix" />
-               <key key="species" value="caprea" />
+               <key key="species" value="Salix caprea" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -612,7 +612,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Malus domestica" />
                <key key="genus" value="Malu" />
-               <key key="species" value="domestica" />
+               <key key="species" value="Malus domestica" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -622,7 +622,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="taxon" value="Pyrus communis" />
                <key key="genus" value="Pyrus" />
-               <key key="species" value="communis" />
+               <key key="species" value="Pyrus communis" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -632,7 +632,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus avium" />
               <key key="genus" value="Prunus" />
-              <key key="species" value="avium" />
+              <key key="species" value="Prunus avium" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -642,7 +642,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus cerasus" />
               <key key="genus" value="Prunus" />
-              <key key="species" value="cerasus" />
+              <key key="species" value="Prunus cerasus" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -654,7 +654,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Liquidambar styraciflua" />
            <key key="genus" value="Liquidambar" />
-           <key key="species" value="styraciflua" />
+           <key key="species" value="Liquidambar styraciflua" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
@@ -665,7 +665,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Koelreuteria paniculata" />
            <key key="genus" value="Koelreuteria" />
-           <key key="species" value="paniculata" />
+           <key key="species" value="Koelreuteria paniculata" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
@@ -676,7 +676,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Liriodendron tulipifera" />
            <key key="genus" value="Liriodendron" />
-           <key key="species" value="tulipifera" />
+           <key key="species" value="Liriodendron tulipifera" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
@@ -687,7 +687,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="natural" value="tree" />
            <key key="taxon" value="Juglans regia" />
            <key key="genus" value="Juglans" />
-           <key key="species" value="regia" />
+           <key key="species" value="Juglans regia" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
@@ -698,7 +698,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Sorbus aucuparia" />
             <key key="genus" value="Sorbus" />
-            <key key="species" value="aucuparia" />
+            <key key="species" value="Sorbus aucuparia" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -709,7 +709,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Robinia pseudoacacia" />
             <key key="genus" value="Robinia" />
-            <key key="species" value="pseudoacacia" />
+            <key key="species" value="Robinia pseudoacacia" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -720,7 +720,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Fraxinus excelsior" />
             <key key="genus" value="Fraxinus" />
-            <key key="species" value="excelsior" />
+            <key key="species" value="Fraxinus excelsior" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -731,7 +731,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Sambucus nigra" />
             <key key="genus" value="Sambucus" />
-            <key key="species" value="nigra" />
+            <key key="species" value="Sambucus nigra" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -742,7 +742,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Ginkgo biloba" />
             <key key="genus" value="Ginkgo" />
-            <key key="species" value="biloba" />
+            <key key="species" value="Ginkgo biloba" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -753,7 +753,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Alnus glutinosa" />
             <key key="genus" value="Alnus" />
-            <key key="species" value="glutinosa" />
+            <key key="species" value="Alnus glutinosa" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -764,7 +764,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Carpinus betulus" />
             <key key="genus" value="Carpinus" />
-            <key key="species" value="betulus" />
+            <key key="species" value="Carpinus betulus" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -775,7 +775,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Corylus avellana" />
             <key key="genus" value="Corylus" />
-            <key key="species" value="avellana" />
+            <key key="species" value="Corylus avellana" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -785,7 +785,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Corylus colurna" />
             <key key="genus" value="Corylus" />
-            <key key="species" value="colurna" />
+            <key key="species" value="Corylus colurna" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -796,7 +796,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Ulmus laevis" />
             <key key="genus" value="Ulmus" />
-            <key key="species" value="laevis" />
+            <key key="species" value="Ulmus laevis" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
@@ -807,7 +807,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="taxon" value="Crataegus oxyacantha" />
             <key key="genus" value="Crataegus" />
-            <key key="species" value="oxyacantha" />
+            <key key="species" value="Crataegus oxyacantha" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
