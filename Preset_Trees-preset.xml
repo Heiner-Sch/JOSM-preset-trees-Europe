@@ -101,7 +101,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
 
       <group name="Pinales" de.name="Nadelbäume" fr.name="Pinales">
       
-         <item name="unspecified Pinale" de.name="unspezifizierter Nadelbaum" type="node">
+         <item name="unspecified Pinale" de.name="unspezifizierter Nadelbaum" fr.name="nonspécifié pinales" type="node">
             <reference ref="OSM-wiki-links" />
             <key key="natural" value="tree" />
             <key key="leaf_type" value="needleleaved" />
@@ -112,7 +112,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
       
          <group name="Pines" de.name="Kiefern" fr.name="">
       
-            <item name="unspecified pine" de.name="unspezifizierte Kiefer" fr.name="" type="node">
+            <item name="unspecified pine" de.name="unspezifizierte Kiefer" fr.name="nonspécifié pin" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Pinus" />
                <key key="genus" value="Pinus" />
@@ -123,7 +123,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
       
-            <item name="Scots pine" cs.name="Borovice Lesní" de.name="Gemeine Kiefer" type="node">
+            <item name="Scots pine" cs.name="Borovice Lesní" de.name="Gemeine Kiefer" fr.name="" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Pinus sylvestris" />
               <key key="genus" value="Pinus" />
@@ -133,7 +133,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="bog pine" cs.name="Borovice Kleč" de.name="Bergkiefer" type="node">
+            <item name="bog pine" cs.name="Borovice Kleč" de.name="Bergkiefer" fr.name="" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Pinus mugo" />
               <key key="genus" value="Pinus" />
@@ -143,7 +143,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="Weymouth pine" cs.name="Borovice Vejmutovka" de.name="Weymouth-Kiefer" type="node">
+            <item name="Weymouth pine" cs.name="Borovice Vejmutovka" de.name="Weymouth-Kiefer" fr.name="" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Pinus strobus" />
               <key key="genus" value="Pinus" />
@@ -156,8 +156,8 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
       
          </group> <!-- Pines -->
       
-         <group name="Redwoods" de.name="Mammutbäume">
-            <item name="coast redwood" de.name="Küstenmammutbaum" type="node">
+         <group name="Redwoods" de.name="Mammutbäume" fr.name="" >
+            <item name="coast redwood" de.name="Küstenmammutbaum" fr.name="" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Sequoia sempervirens" />
                <key key="genus" value="Sequoia" />
@@ -167,7 +167,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="dawn redwood" de.name="Urweltmammutbaum" type="node">
+            <item name="dawn redwood" de.name="Urweltmammutbaum" fr.name="" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Metasequoia glyptostroboides" />
                <key key="genus" value="Metasequoia" />
@@ -188,8 +188,43 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
          </group> <!-- Redwoods -->
-      
-         <item name="european spruce" cs.name="Smrk Ztepilý" de.name="Gemeine Fichte" type="node">
+
+         <group name="Cedars" de.name="Zedern" fr.name="Cèdre">
+
+            <item name="unspecified cedar" de.name="unspezifizierte Zeder" fr.name="nonspécifié cèdre" type="node">
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cedrus" />
+              <key key="genus" value="Cedrus" />
+              <key key="species" value="" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Atlas cedar" de.name="Atlas-Zeder" fr.name="Cèdre de l'Himalaya" type="node">
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cedrus atlantica" />
+              <key key="genus" value="Cedrus" />
+              <key key="species" value="Cedrus atlantica" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Himalayan cedar" de.name="Himalaya-Zeder" fr.name="Cèdre de l'Atlas" type="node">
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cedrus deodara" />
+              <key key="genus" value="Cedrus" />
+              <key key="species" value="Cedrus deodara" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+         </group>
+
+         <item name="european spruce" cs.name="Smrk Ztepilý" de.name="Gemeine Fichte" fr.name="" type="node">
            <key key="natural" value="tree" />
            <key key="taxon" value="Picea abies" />
            <key key="genus" value="Picea" />
@@ -199,7 +234,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
          </item>
-         <item name="blue spruce" cs.name="Smrk pichlavý" de.name="Blau-Fichte" type="node">
+         <item name="blue spruce" cs.name="Smrk pichlavý" de.name="Blau-Fichte" fr.name="" type="node">
            <key key="natural" value="tree" />
            <key key="taxon" value="Picea pungens" />
            <key key="genus" value="Picea" />
@@ -209,7 +244,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
          </item>
-         <item name="Douglas fir" cs.name="Douglaska Tisolistá" de.name="Gewöhnliche Douglasie" type="node">
+         <item name="Douglas fir" cs.name="Douglaska Tisolistá" de.name="Gewöhnliche Douglasie" fr.name="" type="node">
            <key key="natural" value="tree" />
            <key key="taxon" value="Pseudotsuga menziesii" />
            <key key="genus" value="Pseudotsuga" />
@@ -219,7 +254,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
          </item>
-         <item name="common yew" cs.name="Tis Červený" de.name="Europäische Eibe" type="node">
+         <item name="common yew" cs.name="Tis Červený" de.name="Europäische Eibe" fr.name="" type="node">
            <key key="natural" value="tree" />
            <key key="taxon" value="Taxus baccata" />
            <key key="genus" value="Taxus" />
@@ -229,7 +264,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
          </item>
-         <item name="European larch" cs.name="Modřín opadavý" de.name="Europäische Lärche" type="node">
+         <item name="European larch" cs.name="Modřín opadavý" de.name="Europäische Lärche" fr.name="" type="node">
            <key key="natural" value="tree" />
            <key key="taxon" value="Larix decidua" />
            <key key="genus" value="Larix" />
@@ -240,31 +275,11 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-optional-keys" />
          </item>
     
-         <item name="Atlas cedar" de.name="Atlas-Zeder" fr.name="cèdre de l'Himalaya" type="node">
-           <key key="natural" value="tree" />
-           <key key="taxon" value="Cedrus atlantica" />
-           <key key="genus" value="Cedrus" />
-           <key key="species" value="Cedrus atlantica" />
-           <key key="leaf_cycle" value="evergreen" />
-           <key key="leaf_type" value="needleleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
-         </item>
-         <item name="Himalayan cedar" de.name="Himalaya-Zeder" fr.name="Cèdre de l'Atlas" type="node">
-           <key key="natural" value="tree" />
-           <key key="taxon" value="Cedrus deodara" />
-           <key key="genus" value="Cedrus" />
-           <key key="species" value="Cedrus deodara" />
-           <key key="leaf_cycle" value="evergreen" />
-           <key key="leaf_type" value="needleleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
-         </item>
       </group> <!-- Pinales -->
 
-      <group name="Broad-leaved tree" de.name="Laubbäume">
+      <group name="Broad-leaved tree" de.name="Laubbäume" fr.name="Feuillus" >
 
-         <item name="unspecified Broad-leaved tree" de.name="unspezifizierter Laubbaum" type="node">
+         <item name="unspecified Broad-leaved tree" de.name="unspezifizierter Laubbaum" fr.name="nonspécifié feuillus" type="node">
            <reference ref="OSM-wiki-links" />
            <key key="natural" value="tree" />
            <key key="leaf_type" value="broadleaved" />
@@ -275,7 +290,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
        
          <group name="Acer" cs.name="Javor" de.name="Ahorne" fr.name="érables">
       
-            <item name="unspecified Acer" cs.name="Javor" de.name="unspezifizierter Ahorn" fr.name="érables" type="node">
+            <item name="unspecified Acer" cs.name="Javor" de.name="unspezifizierter Ahorn" fr.name="nonspécifié érables" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer" />
               <key key="genus" value="Acer" />
@@ -286,7 +301,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-optional-keys" />
             </item>
         
-            <item name="sycamore" cs.name="Javor Klen" de.name="Berg-Ahorn" fr.name="" type="node">
+            <item name="sycamore" cs.name="Javor Klen" de.name="Berg-Ahorn" fr.name="Érable sycomore" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer pseudoplatanus" />
               <key key="genus" value="Acer" />
@@ -296,7 +311,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="Norway maple" cs.name="Javor Mléč" de.name="Spitzahorn" fr.name="" type="node">
+            <item name="Norway maple" cs.name="Javor Mléč" de.name="Spitzahorn" fr.name="Érable plane" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer platanoides" />
               <key key="genus" value="Acer" />
@@ -306,7 +321,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="field maple" cs.name="Javor Babyka" de.name="Feldahorn" fr.name="" type="node">
+            <item name="field maple" cs.name="Javor Babyka" de.name="Feldahorn" fr.name="Érable champêtre" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer campestre" />
               <key key="genus" value="Acer" />
@@ -338,8 +353,8 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             </item>
          </group> <!-- Acer -->    
 
-         <group name="Beeches" cs.name="Buk" de.name="Buchen" fr.name="hêtres">
- 
+         <group name="Beeches" cs.name="Buk" de.name="Buchen" fr.name="Hêtres">
+
             <item name="European beech" cs.name="Buk Lesní" de.name="Rotbuche" fr.name="Hêtre commun" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Fagus sylvatica" />
@@ -372,7 +387,18 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             </item>
          </group> <!-- Beeches -->
 
-         <group name="Birches" cs.name="Bříza" de.name="Birken" fr.name="bouleaux">
+         <group name="Birches" cs.name="Bříza" de.name="Birken" fr.name="Bouleaux">
+
+            <item name="unspecified birch" cs.name="" de.name="unspezifizierte Birke" fr.name="nonspécifié bouleaux" type="node">
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Betula" />
+               <key key="genus" value="Betula" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
 
             <item name="European white birch" cs.name="Bříza Bělokorá" de.name="Hänge-Birke" fr.name="bouleaux blanc" type="node">
                <key key="natural" value="tree" />
@@ -396,8 +422,8 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             </item>
          </group>
 
-         <group name="Chestnut trees" de.name="Kastanienbäume">
-            <item name="horse-chestnut" cs.name="Jírovec Maďal" de.name="Rosskastanie" type="node">
+         <group name="Chestnut trees" de.name="Kastanienbäume" fr.name="" >
+            <item name="horse-chestnut" cs.name="Jírovec Maďal" de.name="Gewöhnliche Rosskastanie" fr.name="Marronnier commun" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Aesculus hippocastanum" />
               <key key="genus" value="Aesculus" />
@@ -407,7 +433,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="sweet chestnut" cs.name="" de.name="Edelkastanie" type="node">
+            <item name="sweet chestnut" cs.name="" de.name="Edelkastanie" fr.name="Châtaignier commun" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Castanea sativa" />
               <key key="taxon:cs" value="" />
@@ -433,7 +459,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
             
-            <item name="small-leaved lime" cs.name="Lípa Malolistá" de.name="Winterlinde" type="node">
+            <item name="small-leaved lime" cs.name="Lípa Malolistá" de.name="Winterlinde" fr.name="Tilleul à petites feuilles" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Tilia cordata" />
                <key key="genus" value="Tilia" />
@@ -443,7 +469,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="large-leaved lime" cs.name="Lípa Velkolistá" de.name="Sommerlinde" type="node">
+            <item name="large-leaved lime" cs.name="Lípa Velkolistá" de.name="Sommer-Linde" fr.name="Tilleul à grandes feuilles" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Tilia platyphyllos" />
                <key key="genus" value="Tilia" />
@@ -453,11 +479,31 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="common lime" cs.name="" de.name="Holländische Linde" fr.name="Tilleul commun" type="node">
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Tilia × europaea" />
+               <key key="genus" value="Tilia" />
+               <key key="species" value="Tilia × europaea" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Krim-Linde" cs.name="" de.name="Krim-Linde" fr.name="Tilleul de Crimée" type="node">
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Tilia × euchlora" />
+               <key key="genus" value="Tilia" />
+               <key key="species" value="Tilia × euchlora" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
          </group> <!-- Limes -->
 
-         <group name="Oaks" cs.name="Dub" de.name="Eichen" fr.name="">
+         <group name="Oaks" cs.name="Dub" de.name="Eichen" fr.name="Chêne">
 
-            <item name="unspecified oak" cs.name="Dub" de.name="unspezifizierte Eiche" type="node">
+            <item name="unspecified oak" cs.name="Dub" de.name="unspezifizierte Eiche" fr.name="nonspécifié chêne" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Quercus" />
                <key key="genus" value="Quercus" />
@@ -468,7 +514,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="pedunculate oak" cs.name="Dub Letní" de.name="Stieleiche" type="node">
+            <item name="pedunculate oak" cs.name="Dub Letní" de.name="Stieleiche" fr.name="Chêne pédonculé" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Quercus robur" />
                <key key="genus" value="Quercus" />
@@ -478,7 +524,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="sessile oak" cs.name="Dub Zimní" de.name="Traubeneiche" type="node">
+            <item name="sessile oak" cs.name="Dub Zimní" de.name="Traubeneiche" fr.name="Chêne rouvre" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Quercus petraea" />
                <key key="genus" value="Quercus" />
@@ -488,7 +534,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="northern red oak" cs.name="Dub" de.name="Amerikanische Spitzeiche" type="node">
+            <item name="northern red oak" cs.name="Dub" de.name="Amerikanische Spitzeiche" fr.name="Chêne rouge d'Amérique" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Quercus rubra" />
                <key key="genus" value="Quercus" />
@@ -498,7 +544,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-
+            <item name="cork oak" cs.name="" de.name="Korkeiche" fr.name="Chêne-liège" type="node">E
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Quercus suber" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus suber" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
          </group> <!-- Oaks -->
 
          <group name="Poplars" cs.name="Topol" de.name="Pappeln" fr.name="Peuplier">
@@ -514,7 +569,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="black poplar" cs.name="Topol Černý" de.name="Schwarz-Pappel" type="node">
+            <item name="black poplar" cs.name="Topol Černý" de.name="Schwarz-Pappel" fr.name="" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Populus nigra" />
                <key key="genus" value="Populus" />
@@ -524,7 +579,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="silver poplar" cs.name="Topol bílý" de.name="Silber-Pappel" type="node">
+            <item name="silver poplar" cs.name="Topol bílý" de.name="Silber-Pappel" fr.name="" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Populus alba" />
                <key key="genus" value="Populus" />
@@ -584,7 +639,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
  
-            <item name="white willow" cs.name="Vrba Bílá" de.name="Silber-Weide (Tauerweide)" type="node">
+            <item name="white willow" cs.name="Vrba Bílá" de.name="Silber-Weide (Tauerweide)" fr.name="" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Salix alba" />
                <key key="genus" value="Salix" />
@@ -594,7 +649,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="goat willow" cs.name="Vrba Jíva" de.name="Salweide" type="node">
+            <item name="goat willow" cs.name="Vrba Jíva" de.name="Salweide" fr.name="" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Salix caprea" />
                <key key="genus" value="Salix" />
@@ -618,7 +673,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="European pear" cs.name="" de.name="Birnbaum" type="node">
+            <item name="European pear" cs.name="" de.name="Birnbaum" fr.name="" type="node">
                <key key="natural" value="tree" />
                <key key="taxon" value="Pyrus communis" />
                <key key="genus" value="Pyrus" />
@@ -628,7 +683,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="sweet cherry" cs.name="" de.name="Vogel-Kirsche (Süßkirsche)" type="node">
+            <item name="sweet cherry" cs.name="" de.name="Vogel-Kirsche (Süßkirsche)" fr.name="" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus avium" />
               <key key="genus" value="Prunus" />
@@ -638,7 +693,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="sour cherry" cs.name="" de.name="Sauerkirsche" type="node">
+            <item name="sour cherry" cs.name="" de.name="Sauerkirsche" fr.name="" type="node">
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus cerasus" />
               <key key="genus" value="Prunus" />
@@ -683,7 +738,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="walnut" cs.name="Ořešák Královský" de.name="Walnuss" type="node">
+         <item name="walnut" cs.name="Ořešák Královský" de.name="Walnuss" fr.name="" type="node">
            <key key="natural" value="tree" />
            <key key="taxon" value="Juglans regia" />
            <key key="genus" value="Juglans" />
@@ -694,7 +749,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-optional-keys" />
          </item>
          
-         <item name="mountain-ash" cs.name="Jeřáb Ptačí" de.name="Eberesche (Vogelbeerbaum)" type="node">
+         <item name="mountain-ash" cs.name="Jeřáb Ptačí" de.name="Eberesche (Vogelbeerbaum)" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Sorbus aucuparia" />
             <key key="genus" value="Sorbus" />
@@ -705,7 +760,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
          
-         <item name="black locust" cs.name="Trnovník Akát" de.name="Robinie" type="node">
+         <item name="black locust" cs.name="Trnovník Akát" de.name="Robinie" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Robinia pseudoacacia" />
             <key key="genus" value="Robinia" />
@@ -716,7 +771,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="European ash" cs.name="Jasan Ztepilý" de.name="Gemeine Esche" type="node">
+         <item name="European ash" cs.name="Jasan Ztepilý" de.name="Gemeine Esche" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Fraxinus excelsior" />
             <key key="genus" value="Fraxinus" />
@@ -727,7 +782,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
          
-         <item name="black elder" cs.name="Bez Černý" de.name="Schwarzer Holunder" type="node">
+         <item name="black elder" cs.name="Bez Černý" de.name="Schwarzer Holunder" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Sambucus nigra" />
             <key key="genus" value="Sambucus" />
@@ -738,7 +793,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
     
-         <item name="ginkgo" cs.name="Jinan Dvoulaločný" de.name="Ginkgo" type="node">
+         <item name="ginkgo" cs.name="Jinan Dvoulaločný" de.name="Ginkgo" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Ginkgo biloba" />
             <key key="genus" value="Ginkgo" />
@@ -749,7 +804,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="black alder" cs.name="Olše Lepkavá" de.name="Schwarz-Erle" type="node">
+         <item name="black alder" cs.name="Olše Lepkavá" de.name="Schwarz-Erle" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Alnus glutinosa" />
             <key key="genus" value="Alnus" />
@@ -760,7 +815,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
          
-         <item name="common hornbeam" cs.name="Habr Obecný" de.name="Hainbuche" type="node">
+         <item name="common hornbeam" cs.name="Habr Obecný" de.name="Hainbuche" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Carpinus betulus" />
             <key key="genus" value="Carpinus" />
@@ -771,7 +826,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
          
-         <item name="common hazel" cs.name="Líska Obecná" de.name="Haselnussstrauch" type="node">
+         <item name="common hazel" cs.name="Líska Obecná" de.name="Haselnussstrauch" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Corylus avellana" />
             <key key="genus" value="Corylus" />
@@ -781,7 +836,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
-         <item name="Turkish hazel" cs.name="" de.name="Baum-Hasel" type="node">
+         <item name="Turkish hazel" cs.name="" de.name="Baum-Hasel" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Corylus colurna" />
             <key key="genus" value="Corylus" />
@@ -792,7 +847,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="fluttering elm" cs.name="Jilm Vaz" de.name="Flatterulme" type="node">
+         <item name="fluttering elm" cs.name="Jilm Vaz" de.name="Flatterulme" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Ulmus laevis" />
             <key key="genus" value="Ulmus" />
@@ -803,7 +858,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
          
-         <item name="whitethorn" cs.name="Hloh Obecný" de.name="Weißdorn" type="node">
+         <item name="whitethorn" cs.name="Hloh Obecný" de.name="Weißdorn" fr.name="" type="node">
             <key key="natural" value="tree" />
             <key key="taxon" value="Crataegus oxyacantha" />
             <key key="genus" value="Crataegus" />
