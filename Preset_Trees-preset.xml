@@ -704,7 +704,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-optional-keys" />
             </item>
          </group> <!-- Fruit trees -->
- 
+
          <item name="Liquidambar styraciflua" en.name="American sweetgum" de.name="Amerikanischer Amberbaum" fr.name="copalme d'Amérique" type="node" >
            <key key="natural" value="tree" />
            <key key="taxon" value="Liquidambar styraciflua" />
@@ -725,6 +725,17 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Catalpa bignonioides" en.name="southern catalpa" cs.name="" de.name="Gewöhnliche Trompetenbaum" fr.name="Arbre aux haricots" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Catalpa bignonioides" />
+            <key key="genus" value="Catalpa" />
+            <key key="species" value="Catalpa bignonioides" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
          </item>
 
          <item name="Liriodendron tulipifera" en.name="tulip tree" de.name="Tulpenbaum" fr.name="tulipier de Virginie" type="node" >
@@ -748,7 +759,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
          </item>
-         
+
          <item name="Sorbus aucuparia" en.name="mountain-ash" cs.name="Jeřáb Ptačí" de.name="Vogelbeerbaum (Eberesche)" fr.name="Sorbier des oiseaux" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Sorbus aucuparia" />
@@ -759,7 +770,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
-         
+
          <item name="Robinia pseudoacacia" en.name="black locust" cs.name="Trnovník Akát" de.name="Robinie" fr.name="Robinier faux-acacia" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Robinia pseudoacacia" />
@@ -781,7 +792,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
-         
+
          <item name="Sambucus nigra" en.name="black elder" cs.name="Bez Černý" de.name="Schwarzer Holunder" fr.name="Sureau noir" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Sambucus nigra" />
@@ -792,7 +803,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
-    
+
          <item name="Ginkgo biloba" en.name="ginkgo" cs.name="Jinan Dvoulaločný" de.name="Ginkgo" fr.name="Arbre aux quarante écus" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Ginkgo biloba" />
@@ -814,7 +825,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
-         
+
          <item name="Carpinus betulus" en.name="common hornbeam" cs.name="Habr Obecný" de.name="Hainbuche" fr.name="Charme commun" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Carpinus betulus" />
@@ -825,7 +836,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
-         
+
          <item name="Corylus avellana" en.name="common hazel" cs.name="Líska Obecná" de.name="Haselnussstrauch" fr.name="Noisetier" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Corylus avellana" />
@@ -857,7 +868,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
-         
+
          <item name="Crataegus oxyacantha" en.name="whitethorn" cs.name="Hloh Obecný" de.name="Weißdorn" fr.name="" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Crataegus oxyacantha" />
