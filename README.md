@@ -9,9 +9,9 @@ If you send me missing important trees, I'm going to add them.
 The idea is a multilingual preset.
 My first language is German. I've done the existing translation in EN and FR via Wikipedia.
 CS is taken from the JOSM preset trees of Petr Schönmann.
-If there are corretions needed, let me know.
+If there are corrections needed, let me know.
 
-Maybe you have also a preset for trees in you language.
+Maybe you have also a preset for trees in your language.
 If you like, you can provide this information to add it into this preset.
 
 
