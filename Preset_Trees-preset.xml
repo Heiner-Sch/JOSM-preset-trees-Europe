@@ -727,7 +727,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Catalpa bignonioides" en.name="southern catalpa" cs.name="" de.name="Gewöhnliche Trompetenbaum" fr.name="Arbre aux haricots" type="node" >
+         <item name="Catalpa bignonioides" en.name="southern catalpa" cs.name="" de.name="Gewöhnlicher Trompetenbaum" fr.name="Arbre aux haricots" type="node" >
             <key key="natural" value="tree" />
             <key key="taxon" value="Catalpa bignonioides" />
             <key key="genus" value="Catalpa" />
