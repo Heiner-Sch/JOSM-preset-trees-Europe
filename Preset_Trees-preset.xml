@@ -683,6 +683,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="Prunus domestica" en.name="european plum" cs.name="" de.name="Kultur-Pflaume" fr.name="prunier cultivé" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus domestica" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus domestica" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
             <item name="Prunus avium" en.name="sweet cherry" cs.name="" de.name="Vogel-Kirsche (Süßkirsche)" fr.name="Merisier" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus avium" />
@@ -698,6 +708,26 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="taxon" value="Prunus cerasus" />
               <key key="genus" value="Prunus" />
               <key key="species" value="Prunus cerasus" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Cydonia oblonga" en.name="quince" cs.name="" de.name="Quitte" fr.name="Cognassier" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cydonia oblonga" />
+              <key key="genus" value="Cydonia" />
+              <key key="species" value="Cydonia oblonga" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Prunus serrulata" en.name="Japanese cherry" cs.name="" de.name="Japanische Blütenkirsche" fr.name="Cerisier du Japon" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus serrulata" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus serrulata" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -743,6 +773,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="taxon" value="Liriodendron tulipifera" />
            <key key="genus" value="Liriodendron" />
            <key key="species" value="Liriodendron tulipifera" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Magnolia" en.name="magnolia" de.name="Magnolie" fr.name="magnoliasnode 0node 0" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Magnolia" />
+           <key key="genus" value="Magnolia" />
+           <key key="species" value="" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
