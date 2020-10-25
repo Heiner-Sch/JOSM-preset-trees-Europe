@@ -693,6 +693,29 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
+
+            <item name="Prunus domestica syriaca" en.name="Mirabelle plum" cs.name="" de.name="Mirabelle (Gelbe Zwetschge)" fr.name="Mirabelle" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus domestica syriaca" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus domestica syriaca" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+
+
+            <item name="Prunus armeniaca" en.name="Apricot" cs.name="" de.name="Aprikose (Marille)" fr.name="Abricotier commun" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus armeniaca" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus armeniaca" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
             <item name="Prunus avium" en.name="sweet cherry" cs.name="" de.name="Vogel-Kirsche (Süßkirsche)" fr.name="Merisier" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus avium" />
@@ -735,6 +758,29 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             </item>
          </group> <!-- Fruit trees -->
 
+         <group name="Magnolia" en.name="Magnolia" de.name="Magnolien" fr.name="Magnolias" >
+            <item name="Magnolia" en.name="unspecified magnolia" de.name="unspezifizierte Magnolie" fr.name="nonspécifié magnolias" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Magnolia" />
+              <key key="genus" value="Magnolia" />
+              <key key="species" value="" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Magnolia fraseri" en.name="mountain magnolia" de.name="Berg-Magnolie" fr.name="Magnolier de Fraser" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Magnolia fraseri" />
+              <key key="genus" value="Magnolia" />
+              <key key="species" value="Magnolia fraseri" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Magnolia -->
+
          <item name="Liquidambar styraciflua" en.name="American sweetgum" de.name="Amerikanischer Amberbaum" fr.name="copalme d'Amérique" type="node" >
            <key key="natural" value="tree" />
            <key key="taxon" value="Liquidambar styraciflua" />
@@ -773,16 +819,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
            <key key="taxon" value="Liriodendron tulipifera" />
            <key key="genus" value="Liriodendron" />
            <key key="species" value="Liriodendron tulipifera" />
-           <key key="leaf_cycle" value="deciduous" />
-           <key key="leaf_type" value="broadleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
-         </item>
-         <item name="Magnolia" en.name="magnolia" de.name="Magnolie" fr.name="magnoliasnode 0node 0" type="node" >
-           <key key="natural" value="tree" />
-           <key key="taxon" value="Magnolia" />
-           <key key="genus" value="Magnolia" />
-           <key key="species" value="" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
