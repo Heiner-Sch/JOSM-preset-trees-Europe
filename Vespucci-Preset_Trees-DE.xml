@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="HeinerSchaefer"
+  version="0.1 2020-09"
+  shortdescription="Tree names with taxom"
+  de.shortdescription="Baumnamen mit taxom"
+  description="Tree names with taxom"
+  cs.description="Stromy s Binomickým jménem"
+  de.description="Baumnamen mit taxom">
+
+<!-- CS names from here: https://josm.openstreetmap.de/wiki/Presets/Trees -->
+
+<!-- presets in preset
+
+         <group name="" en.name="tree name" de.name="" fr.name="" >
+         </group>
+
+            <item name="" en.name="" cs.name="" de.name="" fr.name="" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="" />
+               <key key="genus" value="" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+leaf_cycle: values="deciduous,evergreen,semi_deciduous,semi_evergreen"
+leaf_type:  values="broadleaved,needleleaved,leafless"
+
+-->
+
+  <group name="Bäume" icon="presets/landmark/trees.svg" >
+
+      <chunk id="OSM-wiki-links">
+         <link href="https://wiki.openstreetmap.org/wiki/Tag:natural=tree"
+               de.href="https://wiki.openstreetmap.org/wiki/DE:Tag:natural=tree"
+               es.href="https://wiki.openstreetmap.org/wiki/ES:Tag:natural=tree"
+               fi.href="https://wiki.openstreetmap.org/wiki/Fi:Tag:natural=tree"
+               fr.href="https://wiki.openstreetmap.org/wiki/FR:Tag:natural=tree"
+               ja.href="https://wiki.openstreetmap.org/wiki/JA:Tag:natural=tree"
+               pl.href="https://wiki.openstreetmap.org/wiki/Pl:Tag:natural=tree"
+               pt_BR.href="https://wiki.openstreetmap.org/wiki/Pt-br:Tag:natural=tree"
+               ru.href="https://wiki.openstreetmap.org/wiki/RU:Tag:natural=tree" />
+         <space />      
+      </chunk>
+      
+      <chunk id="tree-optional-keys">
+         <optional>
+            <space />
+            <text key="height" text="Height (meters)" />
+            <text key="diameter_crown" text="Diameter crown (meters)" />
+            <text key="circumference" text="Circumference (meters)" />
+            <space />
+            <text key="name" text="Name" />
+            <text key="start_date" text="Start date" />
+         </optional>
+      </chunk>
+
+      <chunk id="tree-denotation">
+         <combo key="denotation" text="Denotation" values_searchable="true" values_context="tree denotation" >
+             <list_entry value="landmark" short_description="Trees remarkable due to its size or prominent location, usually visible from great distances and useful for navigation." />
+             <list_entry value="natural_monument" short_description="Especially old tree, often with a particular shape. Usually protected for its uniqueness." />
+             <list_entry value="avenue" short_description="Trees aligned along a road." />
+             <list_entry value="urban" short_description="Trees found within settlements, e.g. in parks or spread through residential areas." />
+             <list_entry value="agricultural" short_description="Trees in agricultural use." />
+         </combo>
+      </chunk>
+      
+      <chunk id="tree-leaf_cycle">
+         <combo key="leaf_cycle" text="Leaf cycle" values_searchable="true" >
+            <list_entry value="deciduous" short_description="Plants that are leafless for a certain period during the year." />
+            <list_entry value="evergreen" short_description="Plants that are never entirely without green foliage." />
+            <list_entry value="semi_deciduous" short_description="Plants that lose their foliage for a very short period, when old leaves fall off and new foliage growth is starting." />
+            <list_entry value="semi_evergreen" short_description="Plants that lose most, but not all, of their foliage for a fraction of the year." />
+         </combo>
+      </chunk>
+
+     <item name="Tree" icon="presets/landmark/trees.svg" type="node" preset_name_label="true">
+         <reference ref="OSM-wiki-links" />
+         <key key="natural" value="tree" />
+         <text key="name" text="Name" />
+         <combo key="leaf_type" text="Leaf type" values="broadleaved,needleleaved,leafless" fr.values="feuillu" />
+         <combo key="leaf_cycle" text="Leaf cycle" values="deciduous,evergreen,semi_deciduous,semi_evergreen" fr.values="à feuilles caduques, à feuilles persistantes,à feuilles semi-caduques, à feuilles semi-persistantes" />
+         <text key="name:botanical" text="Botanical Name" />
+         <optional>
+             <text key="genus" text="Genus" fr.text="Genre" />
+             <text key="species" text="Species" />
+             <text key="taxon" text="Taxon" />
+             <space />
+             <text key="height" text="Height (meters)" />
+             <text key="diameter_crown" text="Diameter crown (meters)" />
+             <text key="circumference" text="Circumference (meters)" />
+             <space />
+             <text key="name" text="Name" />
+             <text key="start_date" text="Start date" />
+         </optional>
+      </item>
+
+      <group name="Nadelbäume" >
+      
+         <item name="unspezifizierter Nadelbaum" type="node" >
+            <reference ref="OSM-wiki-links" />
+            <key key="natural" value="tree" />
+            <key key="leaf_type" value="needleleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-leaf_cycle" />
+            <reference ref="tree-optional-keys" />
+         </item>
+      
+         <group name="Kiefern" >
+      
+            <item name="unspezifizierte Kiefer" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Pinus" />
+               <key key="genus" value="Pinus" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+      
+            <item name="Gemeine Kiefer" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Pinus sylvestris" />
+              <key key="genus" value="Pinus" />
+              <key key="species" value="Pinus sylvestris" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Bergkiefer" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Pinus mugo" />
+              <key key="genus" value="Pinus" />
+              <key key="species" value="Pinus mugo" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Weymouth-Kiefer" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Pinus strobus" />
+              <key key="genus" value="Pinus" />
+              <key key="species" value="Pinus strobus" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+      
+         </group> <!-- Pines -->
+      
+         <group name="Mammutbäume" >
+            <item name="Küstenmammutbaum" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Sequoia sempervirens" />
+               <key key="genus" value="Sequoia" />
+               <key key="species" value="Sequoia sempervirens" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Urweltmammutbaum" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Metasequoia glyptostroboides" />
+               <key key="genus" value="Metasequoia" />
+               <key key="species" value="Metasequoia glyptostroboides" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Riesenmammutbaum" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Sequoiadendron giganteum" />
+               <key key="genus" value="Sequoiadendron" />
+               <key key="species" value="Sequoiadendron giganteum" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Redwoods -->
+
+         <group name="Zedern" >
+
+            <item name="unspezifizierte Zeder" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cedrus" />
+              <key key="genus" value="Cedrus" />
+              <key key="species" value="" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Atlas-Zeder" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cedrus atlantica" />
+              <key key="genus" value="Cedrus" />
+              <key key="species" value="Cedrus atlantica" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Himalaya-Zeder" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cedrus deodara" />
+              <key key="genus" value="Cedrus" />
+              <key key="species" value="Cedrus deodara" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+         </group>
+
+         <item name="Gemeine Fichte" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Picea abies" />
+           <key key="genus" value="Picea" />
+           <key key="species" value="Picea abies" />
+           <key key="leaf_cycle" value="evergreen" />
+           <key key="leaf_type" value="needleleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Blau-Fichte" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Picea pungens" />
+           <key key="genus" value="Picea" />
+           <key key="species" value="Picea pungens" />
+           <key key="leaf_cycle" value="evergreen" />
+           <key key="leaf_type" value="needleleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Gewöhnliche Douglasie" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Pseudotsuga menziesii" />
+           <key key="genus" value="Pseudotsuga" />
+           <key key="species" value="Pseudotsuga menziesii" />
+           <key key="leaf_cycle" value="evergreen" />
+           <key key="leaf_type" value="needleleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Europäische Eibe" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Taxus baccata" />
+           <key key="genus" value="Taxus" />
+           <key key="species" value="Taxus baccata" />
+           <key key="leaf_cycle" value="evergreen" />
+           <key key="leaf_type" value="needleleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Europäische Lärche" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Larix decidua" />
+           <key key="genus" value="Larix" />
+           <key key="species" value="Larix decidua" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="needleleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+    
+      </group> <!-- Pinales -->
+
+      <group name="Laubbäume" >
+
+         <item name="unspezifizierter Laubbaum" type="node" >
+           <reference ref="OSM-wiki-links" />
+           <key key="natural" value="tree" />
+           <key key="leaf_type" value="broadleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-leaf_cycle" />
+           <reference ref="tree-optional-keys" />
+         </item>
+       
+         <group name="Ahorne" >
+      
+            <item name="unspezifizierter Ahorn" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Acer" />
+              <key key="genus" value="Acer" />
+              <key key="species" value="" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />              
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+        
+            <item name="Berg-Ahorn" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Acer pseudoplatanus" />
+              <key key="genus" value="Acer" />
+              <key key="species" value="Acer pseudoplatanus" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Spitzahorn" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Acer platanoides" />
+              <key key="genus" value="Acer" />
+              <key key="species" value="Acer platanoides" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Feldahorn" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Acer campestre" />
+              <key key="genus" value="Acer" />
+              <key key="species" value="Acer campestre" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Silber-Ahorn" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Acer saccharinum" />
+              <key key="genus" value="Acer" />
+              <key key="species" value="Acer saccharinum" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Eschen-Ahorn" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Acer negundo" />
+              <key key="genus" value="Acer" />
+              <key key="species" value="Acer negundo" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Acer -->    
+
+         <group name="Buchen" >
+
+            <item name="Rotbuche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Fagus sylvatica" />
+               <key key="genus" value="Fagus" />
+               <key key="species" value="Fagus sylvatica" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Blutbuche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Fagus sylvatica purpurea" />
+               <key key="genus" value="Fagus" />
+               <key key="species" value="Fagus sylvatica" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Hänge-Buche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Fagus sylvatica pendula" />
+               <key key="genus" value="Fagus" />
+               <key key="species" value="Fagus sylvatica" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Beeches -->
+
+         <group name="Birken" >
+
+            <item name="unspezifizierte Birke" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Betula" />
+               <key key="genus" value="Betula" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Hänge-Birke" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Betula pendula" />
+               <key key="genus" value="Betula" />
+               <key key="species" value="Betula pendula" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Moor-Birke" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Betula pubescens" />
+               <key key="genus" value="Betula" />
+               <key key="species" value="Betula pubescens" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group>
+
+         <group name="Kastanienbäume" >
+            <item name="Gewöhnliche Rosskastanie" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Aesculus hippocastanum" />
+              <key key="genus" value="Aesculus" />
+              <key key="species" value="Aesculus hippocastanum" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Edelkastanie" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Castanea sativa" />
+              <key key="taxon:cs" value="" />
+              <key key="genus" value="Castanea" />
+              <key key="species" value="Castanea sativa" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Chestnut -->
+
+         <group name="Linden" >
+
+            <item name="unspezifizierte Linde" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Tilia" />
+               <key key="genus" value="Tilia" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            
+            <item name="Winterlinde" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Tilia cordata" />
+               <key key="genus" value="Tilia" />
+               <key key="species" value="Tilia cordata" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Sommer-Linde" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Tilia platyphyllos" />
+               <key key="genus" value="Tilia" />
+               <key key="species" value="Tilia platyphyllos" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Holländische Linde" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Tilia × europaea" />
+               <key key="genus" value="Tilia" />
+               <key key="species" value="Tilia × europaea" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Krim-Linde" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Tilia × euchlora" />
+               <key key="genus" value="Tilia" />
+               <key key="species" value="Tilia × euchlora" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Limes -->
+
+         <group name="Eichen" >
+
+            <item name="unspezifizierte Eiche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Quercus" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Stieleiche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Quercus robur" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus robur" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Traubeneiche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Quercus petraea" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus petraea" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Amerikanische Spitzeiche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Quercus rubra" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus rubra" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Korkeiche" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Quercus suber" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus suber" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Oaks -->
+
+         <group name="Pappeln" >
+
+            <item name="unspezifizierte Pappel" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Populus" />
+               <key key="genus" value="Platanus" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Schwarz-Pappel" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Populus nigra" />
+               <key key="genus" value="Populus" />
+               <key key="species" value="Populus nigra" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Silber-Pappel" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Populus alba" />
+               <key key="genus" value="Populus" />
+               <key key="species" value="Populus alba" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Poplars -->
+
+         <group name="Platanen" >
+
+            <item name="Platanus" en.name="unspecified plane" cs.name="" de.name="unspezifizierte Platane" fr.name="nonspécifié platane" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Platanus" />
+               <key key="genus" value="Platanus" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            
+            <item name="Ahornblättrige Platane" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Platanus acerifolia" />
+               <key key="genus" value="Platanus" />
+               <key key="species" value="Platanus acerifolia" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Morgenländische Platane" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Platanus orientalis" />
+               <key key="genus" value="Platanus" />
+               <key key="species" value="Platanus orientalis" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- plane trees -->
+
+         <group name="Weiden" >
+
+            <item name="unspezifizierte Weide" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Salix" />
+               <key key="genus" value="Salix" />
+               <key key="species" value="" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+ 
+            <item name="Silber-Weide (Tauerweide)" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Salix alba" />
+               <key key="genus" value="Salix" />
+               <key key="species" value="Salix alba" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Salweide" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Salix caprea" />
+               <key key="genus" value="Salix" />
+               <key key="species" value="Salix caprea" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+         </group> <!-- willows -->
+
+         <group name="Obstbäume" >
+            <item name="Malus domestica" en.name="apple tree" cs.name="" de.name="Apfelbaum" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Malus domestica" />
+               <key key="genus" value="Malus" />
+               <key key="species" value="Malus domestica" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Birnbaum" type="node" >
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Pyrus communis" />
+               <key key="genus" value="Pyrus" />
+               <key key="species" value="Pyrus communis" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Kultur-Pflaume" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus domestica" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus domestica" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Mirabelle (Gelbe Zwetschge)" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus domestica syriaca" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus domestica syriaca" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Aprikose (Marille)" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus armeniaca" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus armeniaca" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Vogel-Kirsche (Süßkirsche)" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus avium" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus avium" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Sauerkirsche" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus cerasus" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus cerasus" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Quitte" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Cydonia oblonga" />
+              <key key="genus" value="Cydonia" />
+              <key key="species" value="Cydonia oblonga" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Japanische Blütenkirsche" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Prunus serrulata" />
+              <key key="genus" value="Prunus" />
+              <key key="species" value="Prunus serrulata" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Fruit trees -->
+
+         <group name="Magnolien" >
+
+            <item name="unspezifizierte Magnolie" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Magnolia" />
+              <key key="genus" value="Magnolia" />
+              <key key="species" value="" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Berg-Magnolie" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Magnolia fraseri" />
+              <key key="genus" value="Magnolia" />
+              <key key="species" value="Magnolia fraseri" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Magnolia -->
+
+         <item name="Amerikanischer Amberbaum" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Liquidambar styraciflua" />
+           <key key="genus" value="Liquidambar" />
+           <key key="species" value="Liquidambar styraciflua" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Blasenbaum (Blasenesche)" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Koelreuteria paniculata" />
+           <key key="genus" value="Koelreuteria" />
+           <key key="species" value="Koelreuteria paniculata" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Gewöhnlicher Trompetenbaum" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Catalpa bignonioides" />
+            <key key="genus" value="Catalpa" />
+            <key key="species" value="Catalpa bignonioides" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Tulpenbaum" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Liriodendron tulipifera" />
+           <key key="genus" value="Liriodendron" />
+           <key key="species" value="Liriodendron tulipifera" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Walnuss" type="node" >
+           <key key="natural" value="tree" />
+           <key key="taxon" value="Juglans regia" />
+           <key key="genus" value="Juglans" />
+           <key key="species" value="Juglans regia" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+           <reference ref="tree-denotation" />
+           <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Vogelbeerbaum (Eberesche)" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Sorbus aucuparia" />
+            <key key="genus" value="Sorbus" />
+            <key key="species" value="Sorbus aucuparia" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Robinie" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Robinia pseudoacacia" />
+            <key key="genus" value="Robinia" />
+            <key key="species" value="Robinia pseudoacacia" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Gemeine Esche" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Fraxinus excelsior" />
+            <key key="genus" value="Fraxinus" />
+            <key key="species" value="Fraxinus excelsior" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Schwarzer Holunder" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Sambucus nigra" />
+            <key key="genus" value="Sambucus" />
+            <key key="species" value="Sambucus nigra" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Ginkgo" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Ginkgo biloba" />
+            <key key="genus" value="Ginkgo" />
+            <key key="species" value="Ginkgo biloba" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Schwarz-Erle" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Alnus glutinosa" />
+            <key key="genus" value="Alnus" />
+            <key key="species" value="Alnus glutinosa" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Hainbuche" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Carpinus betulus" />
+            <key key="genus" value="Carpinus" />
+            <key key="species" value="Carpinus betulus" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Haselnussstrauch" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Corylus avellana" />
+            <key key="genus" value="Corylus" />
+            <key key="species" value="Corylus avellana" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Baum-Hasel" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Corylus colurna" />
+            <key key="genus" value="Corylus" />
+            <key key="species" value="Corylus colurna" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Flatterulme" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Ulmus laevis" />
+            <key key="genus" value="Ulmus" />
+            <key key="species" value="Ulmus laevis" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Weißdorn" type="node" >
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Crataegus oxyacantha" />
+            <key key="genus" value="Crataegus" />
+            <key key="species" value="Crataegus oxyacantha" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+      </group> <!-- Broad-leaved trees -->
+
+  </group>
+</presets>
+
