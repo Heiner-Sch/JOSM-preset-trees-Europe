@@ -420,7 +420,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-         </group>
+         </group> <!-- Birches -->
 
          <group name="Chestnut trees" en.name="Chestnut trees" de.name="Kastanienbäume" fr.name="" >
             <item name="Aesculus hippocastanum" en.name="horse-chestnut" cs.name="Jírovec Maďal" de.name="Gewöhnliche Rosskastanie" fr.name="Marronnier commun" type="node" >
@@ -428,6 +428,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="taxon" value="Aesculus hippocastanum" />
               <key key="genus" value="Aesculus" />
               <key key="species" value="Aesculus hippocastanum" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Aesculus × carnea" en.name="red horse-chestnut" cs.name="" de.name="Fleischrote Rosskastanie" fr.name="Marronnier à fleurs rouges" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Aesculus × carnea" />
+              <key key="genus" value="Aesculus" />
+              <key key="species" value="Aesculus × carnea" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -693,7 +703,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-
             <item name="Prunus domestica syriaca" en.name="Mirabelle plum" cs.name="" de.name="Mirabelle (Gelbe Zwetschge)" fr.name="Mirabelle" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus domestica syriaca" />
@@ -704,8 +713,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-
-
             <item name="Prunus armeniaca" en.name="Apricot" cs.name="" de.name="Aprikose (Marille)" fr.name="Abricotier commun" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus armeniaca" />

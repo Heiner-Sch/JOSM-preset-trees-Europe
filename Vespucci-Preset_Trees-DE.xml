@@ -419,7 +419,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-         </group>
+         </group> <!-- Birches -->
 
          <group name="Kastanienbäume" >
             <item name="Gewöhnliche Rosskastanie" type="node" >
@@ -427,6 +427,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <key key="taxon" value="Aesculus hippocastanum" />
               <key key="genus" value="Aesculus" />
               <key key="species" value="Aesculus hippocastanum" />
+              <key key="leaf_cycle" value="deciduous" />
+              <key key="leaf_type" value="broadleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Fleischrote Rosskastanie" type="node" >
+              <key key="natural" value="tree" />
+              <key key="taxon" value="Aesculus × carnea" />
+              <key key="genus" value="Aesculus" />
+              <key key="species" value="Aesculus × carnea" />
               <key key="leaf_cycle" value="deciduous" />
               <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
@@ -692,7 +702,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-
             <item name="Mirabelle (Gelbe Zwetschge)" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus domestica syriaca" />
@@ -703,7 +712,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-
             <item name="Aprikose (Marille)" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Prunus armeniaca" />
