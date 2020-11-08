@@ -2,34 +2,8 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="HeinerSchaefer"
   version="0.1 2020-09"
-  shortdescription="Tree names with taxom"
-  de.shortdescription="Baumnamen mit taxom"
-  description="Tree names with taxom"
-  cs.description="Stromy s Binomickým jménem"
-  de.description="Baumnamen mit taxom">
-
-<!-- CS names from here: https://josm.openstreetmap.de/wiki/Presets/Trees -->
-
-<!-- presets in preset
-
-         <group name="" en.name="tree name" de.name="" fr.name="" >
-         </group>
-
-            <item name="" en.name="" cs.name="" de.name="" fr.name="" type="node" >
-               <key key="natural" value="tree" />
-               <key key="taxon" value="" />
-               <key key="genus" value="" />
-               <key key="species" value="" />
-               <key key="leaf_cycle" value="deciduous" />
-               <key key="leaf_type" value="broadleaved" />
-               <reference ref="tree-denotation" />
-               <reference ref="tree-optional-keys" />
-            </item>
-
-leaf_cycle: values="deciduous,evergreen,semi_deciduous,semi_evergreen"
-leaf_type:  values="broadleaved,needleleaved,leafless"
-
--->
+  shortdescription="Baumnamen mit taxom"
+  description="Baumnamen mit taxom">
 
   <group name="Bäume" icon="presets/landmark/trees.svg" >
 
@@ -81,9 +55,9 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
          <reference ref="OSM-wiki-links" />
          <key key="natural" value="tree" />
          <text key="name" text="Name" />
-         <combo key="leaf_type" text="Leaf type" values="broadleaved,needleleaved,leafless" fr.values="feuillu" />
-         <combo key="leaf_cycle" text="Leaf cycle" values="deciduous,evergreen,semi_deciduous,semi_evergreen" fr.values="à feuilles caduques, à feuilles persistantes,à feuilles semi-caduques, à feuilles semi-persistantes" />
-         <text key="name:botanical" text="Botanical Name" />
+         <reference ref="tree-denotation" />
+         <combo key="leaf_type" text="Leaf type" values="broadleaved,needleleaved,leafless" />
+         <combo key="leaf_cycle" text="Leaf cycle" values="deciduous,evergreen,semi_deciduous,semi_evergreen" />
          <optional>
              <text key="genus" text="Genus" fr.text="Genre" />
              <text key="species" text="Species" />

@@ -82,9 +82,9 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
          <reference ref="OSM-wiki-links" />
          <key key="natural" value="tree" />
          <text key="name" text="Name" />
-         <combo key="leaf_type" text="Leaf type" values="broadleaved,needleleaved,leafless" fr.values="feuillu" />
-         <combo key="leaf_cycle" text="Leaf cycle" values="deciduous,evergreen,semi_deciduous,semi_evergreen" fr.values="à feuilles caduques, à feuilles persistantes,à feuilles semi-caduques, à feuilles semi-persistantes" />
-         <text key="name:botanical" text="Botanical Name" />
+         <reference ref="tree-denotation" />
+         <combo key="leaf_type" text="Leaf type" values="broadleaved,needleleaved,leafless" />
+         <combo key="leaf_cycle" text="Leaf cycle" values="deciduous,evergreen,semi_deciduous,semi_evergreen" />
          <optional>
              <text key="genus" text="Genus" fr.text="Genre" />
              <text key="species" text="Species" />
