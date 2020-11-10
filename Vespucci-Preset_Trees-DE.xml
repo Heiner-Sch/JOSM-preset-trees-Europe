@@ -5,7 +5,7 @@
   shortdescription="Baumnamen mit taxom"
   description="Baumnamen mit taxom">
 
-  <group name="Bäume" icon="tree_24020.svg" >
+  <group name="Bäume" icon="icons/png/natural_tree_24020.png" >
 
       <chunk id="tree-optional-keys">
          <optional>
