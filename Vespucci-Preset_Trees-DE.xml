@@ -7,26 +7,11 @@
 
   <group name="Bäume" icon="presets/landmark/trees.svg" >
 
-      <chunk id="OSM-wiki-links">
-         <link href="https://wiki.openstreetmap.org/wiki/Tag:natural=tree"
-               de.href="https://wiki.openstreetmap.org/wiki/DE:Tag:natural=tree"
-               es.href="https://wiki.openstreetmap.org/wiki/ES:Tag:natural=tree"
-               fi.href="https://wiki.openstreetmap.org/wiki/Fi:Tag:natural=tree"
-               fr.href="https://wiki.openstreetmap.org/wiki/FR:Tag:natural=tree"
-               ja.href="https://wiki.openstreetmap.org/wiki/JA:Tag:natural=tree"
-               pl.href="https://wiki.openstreetmap.org/wiki/Pl:Tag:natural=tree"
-               pt_BR.href="https://wiki.openstreetmap.org/wiki/Pt-br:Tag:natural=tree"
-               ru.href="https://wiki.openstreetmap.org/wiki/RU:Tag:natural=tree" />
-         <space />      
-      </chunk>
-      
       <chunk id="tree-optional-keys">
          <optional>
-            <space />
             <text key="height" text="Height (meters)" />
             <text key="diameter_crown" text="Diameter crown (meters)" />
             <text key="circumference" text="Circumference (meters)" />
-            <space />
             <text key="name" text="Name" />
             <text key="start_date" text="Start date" />
          </optional>
@@ -34,11 +19,11 @@
 
       <chunk id="tree-denotation">
          <combo key="denotation" text="Denotation" values_searchable="true" values_context="tree denotation" >
-             <list_entry value="landmark" short_description="Trees remarkable due to its size or prominent location, usually visible from great distances and useful for navigation." />
-             <list_entry value="natural_monument" short_description="Especially old tree, often with a particular shape. Usually protected for its uniqueness." />
-             <list_entry value="avenue" short_description="Trees aligned along a road." />
-             <list_entry value="urban" short_description="Trees found within settlements, e.g. in parks or spread through residential areas." />
-             <list_entry value="agricultural" short_description="Trees in agricultural use." />
+            <list_entry value="landmark" short_description="Trees remarkable due to its size or prominent location, usually visible from great distances and useful for navigation." />
+            <list_entry value="natural_monument" short_description="Especially old tree, often with a particular shape. Usually protected for its uniqueness." />
+            <list_entry value="avenue" short_description="Trees aligned along a road." />
+            <list_entry value="urban" short_description="Trees found within settlements, e.g. in parks or spread through residential areas." />
+            <list_entry value="agricultural" short_description="Trees in agricultural use." />
          </combo>
       </chunk>
       
@@ -52,7 +37,6 @@
       </chunk>
 
      <item name="Tree" icon="presets/landmark/trees.svg" type="node" preset_name_label="true">
-         <reference ref="OSM-wiki-links" />
          <key key="natural" value="tree" />
          <text key="name" text="Name" />
          <reference ref="tree-denotation" />
@@ -62,29 +46,26 @@
              <text key="genus" text="Genus" fr.text="Genre" />
              <text key="species" text="Species" />
              <text key="taxon" text="Taxon" />
-             <space />
              <text key="height" text="Height (meters)" />
              <text key="diameter_crown" text="Diameter crown (meters)" />
              <text key="circumference" text="Circumference (meters)" />
-             <space />
              <text key="name" text="Name" />
              <text key="start_date" text="Start date" />
          </optional>
       </item>
 
       <group name="Nadelbäume" >
-      
+
          <item name="unspezifizierter Nadelbaum" type="node" >
-            <reference ref="OSM-wiki-links" />
             <key key="natural" value="tree" />
             <key key="leaf_type" value="needleleaved" />
             <reference ref="tree-denotation" />
             <reference ref="tree-leaf_cycle" />
             <reference ref="tree-optional-keys" />
          </item>
-      
+
          <group name="Kiefern" >
-      
+
             <item name="unspezifizierte Kiefer" type="node" >
                <key key="natural" value="tree" />
                <key key="taxon" value="Pinus" />
@@ -95,7 +76,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-      
+
             <item name="Gemeine Kiefer" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Pinus sylvestris" />
@@ -126,9 +107,8 @@
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-      
          </group> <!-- Pines -->
-      
+
          <group name="Mammutbäume" >
             <item name="Küstenmammutbaum" type="node" >
                <key key="natural" value="tree" />
@@ -195,7 +175,7 @@
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-         </group>
+         </group> <!-- Cedars -->
 
          <item name="Gemeine Fichte" type="node" >
            <key key="natural" value="tree" />
@@ -247,33 +227,31 @@
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
          </item>
-    
       </group> <!-- Pinales -->
 
       <group name="Laubbäume" >
 
          <item name="unspezifizierter Laubbaum" type="node" >
-           <reference ref="OSM-wiki-links" />
            <key key="natural" value="tree" />
            <key key="leaf_type" value="broadleaved" />
            <reference ref="tree-denotation" />
            <reference ref="tree-leaf_cycle" />
            <reference ref="tree-optional-keys" />
          </item>
-       
+
          <group name="Ahorne" >
-      
+
             <item name="unspezifizierter Ahorn" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer" />
               <key key="genus" value="Acer" />
               <key key="species" value="" />
               <key key="leaf_cycle" value="deciduous" />
-              <key key="leaf_type" value="broadleaved" />              
+              <key key="leaf_type" value="broadleaved" />
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-        
+
             <item name="Berg-Ahorn" type="node" >
               <key key="natural" value="tree" />
               <key key="taxon" value="Acer pseudoplatanus" />
@@ -642,7 +620,6 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-
          </group> <!-- willows -->
 
          <group name="Obstbäume" >
@@ -764,14 +741,14 @@
          </group> <!-- Magnolia -->
 
          <item name="Amerikanischer Amberbaum" type="node" >
-           <key key="natural" value="tree" />
-           <key key="taxon" value="Liquidambar styraciflua" />
-           <key key="genus" value="Liquidambar" />
-           <key key="species" value="Liquidambar styraciflua" />
-           <key key="leaf_cycle" value="deciduous" />
-           <key key="leaf_type" value="broadleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Liquidambar styraciflua" />
+            <key key="genus" value="Liquidambar" />
+            <key key="species" value="Liquidambar styraciflua" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
          </item>
 
          <item name="Blasenbaum (Blasenesche)" type="node" >
@@ -797,25 +774,25 @@
          </item>
 
          <item name="Tulpenbaum" type="node" >
-           <key key="natural" value="tree" />
-           <key key="taxon" value="Liriodendron tulipifera" />
-           <key key="genus" value="Liriodendron" />
-           <key key="species" value="Liriodendron tulipifera" />
-           <key key="leaf_cycle" value="deciduous" />
-           <key key="leaf_type" value="broadleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Liriodendron tulipifera" />
+            <key key="genus" value="Liriodendron" />
+            <key key="species" value="Liriodendron tulipifera" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
          </item>
 
          <item name="Walnuss" type="node" >
-           <key key="natural" value="tree" />
-           <key key="taxon" value="Juglans regia" />
-           <key key="genus" value="Juglans" />
-           <key key="species" value="Juglans regia" />
-           <key key="leaf_cycle" value="deciduous" />
-           <key key="leaf_type" value="broadleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Juglans regia" />
+            <key key="genus" value="Juglans" />
+            <key key="species" value="Juglans regia" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
          </item>
 
          <item name="Vogelbeerbaum (Eberesche)" type="node" >
@@ -940,6 +917,6 @@
 
       </group> <!-- Broad-leaved trees -->
 
-  </group>
+  </group> <!-- trees -->
 </presets>
 
