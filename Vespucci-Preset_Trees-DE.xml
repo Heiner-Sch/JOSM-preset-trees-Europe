@@ -5,7 +5,7 @@
   shortdescription="Baumnamen mit taxom"
   description="Baumnamen mit taxom">
 
-  <group name="Bäume" icon="presets/landmark/trees.svg" >
+  <group name="Bäume" icon="tree_24020.svg" >
 
       <chunk id="tree-optional-keys">
          <optional>
