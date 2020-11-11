@@ -11,7 +11,4 @@ My first language is German. I've done the existing translation in EN and FR via
 CS is taken from the JOSM preset trees of Petr Schönmann.
 If there are corrections needed, let me know.
 
-Maybe you have also a preset for trees in your language.
-If you like, you can provide this information to add it into this preset.
-
-
+Icons taken from http://www.sjjb.co.uk/mapicons/introduction 
