@@ -5,7 +5,7 @@
   shortdescription="Baumnamen mit taxom"
   description="Baumnamen mit taxom">
 
-  <group name="Bäume" icon="icons/png/coniferous_and_deciduous.png" >
+  <group name="Bäume" icon="" >
 
       <chunk id="tree-optional-keys">
          <optional>
@@ -36,7 +36,7 @@
          </combo>
       </chunk>
 
-     <item name="Baum" icon="icons/png/coniferous_and_deciduous.png" type="node" preset_name_label="true">
+     <item name="Baum" icon="" type="node" preset_name_label="true">
          <key key="natural" value="tree" />
          <text key="name" text="Name" />
          <reference ref="tree-denotation" />
