@@ -8,11 +8,11 @@
   <group name="Bäume" icon="" >
 
       <chunk id="tree-optional-keys">
-         <text key="height" text="Height (meters)" />
-         <text key="diameter_crown" text="Diameter crown (meters)" />
-         <text key="circumference" text="Circumference (meters)" />
+         <text key="height" text="Höhe (Meter)" />
+         <text key="diameter_crown" text="Kronendurchmesser (Meter)" />
+         <text key="circumference" text="Stammumfang (Meter)" />
          <text key="name" text="Name" />
-         <text key="start_date" text="Start date" />
+         <text key="start_date" text="Startdatum" />
       </chunk>
 
       <chunk id="tree-denotation">
@@ -46,7 +46,7 @@
          <text key="height" text="Height (meters)" />
          <text key="diameter_crown" text="Diameter crown (meters)" />
          <text key="circumference" text="Circumference (meters)" />
-         <text key="start_date" text="Start date" />
+         <text key="start_date" text="Startdatum" />
       </item>
 
       <group name="Nadelbäume" >
