@@ -258,6 +258,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
+
          <item name="Pseudotsuga menziesii" en.name="Douglas fir" cs.name="Douglaska Tisolistá" de.name="Gewöhnliche Douglasie" fr.name="Douglas vert" type="node" preset_name_label="true" >
             <space />
             <key key="natural" value="tree" />
@@ -269,6 +270,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
+
          <item name="Taxus baccata" en.name="common yew" cs.name="Tis Červený" de.name="Europäische Eibe" fr.name="If commun" type="node" preset_name_label="true" >
             <space />
             <key key="natural" value="tree" />
@@ -280,6 +282,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
          </item>
+
          <item name="Larix decidua" en.name="European larch" cs.name="Modřín opadavý" de.name="Europäische Lärche" fr.name="Mélèze d'Europe" type="node" preset_name_label="true" >
             <space />
             <key key="natural" value="tree" />
@@ -449,6 +452,91 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
          </group> <!-- Birches -->
+
+         <group name="Alnus" en.name="Alder" de.name="Erlen" fr.name="Aulnes" >
+            <item name="Alnus" en.name="unspecified alder" cs.name="" de.name="unspezifizierte Erle" fr.name="nonspécifié aulne" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Alnus" />
+               <key key="genus" value="Alnus" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Alnus glutinosa" en.name="black alder" cs.name="Olše Lepkavá" de.name="Schwarz-Erle" fr.name="Aulne glutineux" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Alnus glutinosa" />
+               <key key="genus" value="Alnus" />
+               <key key="species" value="Alnus glutinosa" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Alnus incana" en.name="grey alder" cs.name="" de.name="Grau-Erle" fr.name="Aulne blanc" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Alnus incana" />
+               <key key="genus" value="Alnus" />
+               <key key="species" value="Alnus incana" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Alnus alnobetula" en.name="green alder" cs.name="" de.name="Grün-Erle" fr.name="Aulne vert" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Alnus alnobetula" />
+               <key key="genus" value="Alnus" />
+               <key key="species" value="Alnus alnobetula" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Alder -->
+
+         <group name="Fraxinus" en.name="Ash" de.name="Eschen" fr.name="Frêne" >
+
+            <item name="Fraxinus" en.name="unspecified ash" cs.name="" de.name="unspezifizierte Esche" fr.name="nonspécifié Frêne" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Fraxinus" />
+               <key key="genus" value="Fraxinus" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Fraxinus excelsior" en.name="European ash" cs.name="Jasan Ztepilý" de.name="Gemeine Esche" fr.name="Frêne élevé" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Fraxinus excelsior" />
+               <key key="genus" value="Fraxinus" />
+               <key key="species" value="Fraxinus excelsior" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Fraxinus ornus" en.name="South European flowering ash" cs.name="" de.name="Blumen-Esche" fr.name="Frêne à fleurs" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Fraxinus ornus" />
+               <key key="genus" value="Fraxinus" />
+               <key key="species" value="Fraxinus ornus" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Ash -->
 
          <group name="Chestnut trees" en.name="Chestnut trees" de.name="Kastanienbäume" fr.name="" >
             <item name="Aesculus hippocastanum" en.name="horse-chestnut" cs.name="Jírovec Maďal" de.name="Gewöhnliche Rosskastanie" fr.name="Marronnier commun" type="node" preset_name_label="true" >
@@ -932,18 +1020,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Fraxinus excelsior" en.name="European ash" cs.name="Jasan Ztepilý" de.name="Gemeine Esche" fr.name="Frêne élevé" type="node" preset_name_label="true" >
-            <space />
-            <key key="natural" value="tree" />
-            <key key="taxon" value="Fraxinus excelsior" />
-            <key key="genus" value="Fraxinus" />
-            <key key="species" value="Fraxinus excelsior" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-
          <item name="Sambucus nigra" en.name="black elder" cs.name="Bez Černý" de.name="Schwarzer Holunder" fr.name="Sureau noir" type="node" preset_name_label="true" >
             <space />
             <key key="natural" value="tree" />
@@ -962,18 +1038,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="taxon" value="Ginkgo biloba" />
             <key key="genus" value="Ginkgo" />
             <key key="species" value="Ginkgo biloba" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-
-         <item name="Alnus glutinosa" en.name="black alder" cs.name="Olše Lepkavá" de.name="Schwarz-Erle" fr.name="Aulne glutineux" type="node" preset_name_label="true" >
-            <space />
-            <key key="natural" value="tree" />
-            <key key="taxon" value="Alnus glutinosa" />
-            <key key="genus" value="Alnus" />
-            <key key="species" value="Alnus glutinosa" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />

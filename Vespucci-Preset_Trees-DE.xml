@@ -11,7 +11,6 @@
          <text key="height" text="Höhe (Meter)" />
          <text key="diameter_crown" text="Kronendurchmesser (Meter)" />
          <text key="circumference" text="Stammumfang (Meter)" />
-         <text key="name" text="Name" />
          <text key="start_date" text="Startdatum" />
       </chunk>
 
@@ -403,6 +402,153 @@
             </item>
          </group> <!-- Birches -->
 
+         <group name="Eichen" >
+
+            <item name="unspezifizierte Eiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Quercus" />
+               <key key="genus" value="Quercus" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Stieleiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Quercus robur" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus robur" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Traubeneiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Quercus petraea" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus petraea" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Amerikanische Spitzeiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Quercus rubra" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus rubra" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Korkeiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Quercus suber" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus suber" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Oaks -->
+
+         <group name="Erlen" >
+
+            <item name="unspezifizierte Erle" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Alnus" />
+               <key key="genus" value="Alnus" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Schwarz-Erle" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Alnus glutinosa" />
+               <key key="genus" value="Alnus" />
+               <key key="species" value="Alnus glutinosa" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Grau-Erle" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Alnus incana" />
+               <key key="genus" value="Alnus" />
+               <key key="species" value="Alnus incana" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Grün-Erle" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Alnus alnobetula" />
+               <key key="genus" value="Alnus" />
+               <key key="species" value="Alnus alnobetula" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Alder -->
+
+         <group name="Eschen" >
+
+            <item name="unspezifizierte Esche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Fraxinus" />
+               <key key="genus" value="Fraxinus" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Gemeine Esche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Fraxinus excelsior" />
+               <key key="genus" value="Fraxinus" />
+               <key key="species" value="Fraxinus excelsior" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Blumen-Esche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Fraxinus ornus" />
+               <key key="genus" value="Fraxinus" />
+               <key key="species" value="Fraxinus ornus" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Ash -->
+
          <group name="Kastanienbäume" >
             <item name="Gewöhnliche Rosskastanie" type="node" >
                <key key="natural" value="tree" />
@@ -499,66 +645,6 @@
                <reference ref="tree-optional-keys" />
             </item>
          </group> <!-- Limes -->
-
-         <group name="Eichen" >
-
-            <item name="unspezifizierte Eiche" type="node" >
-               <key key="natural" value="tree" />
-               <text key="name" text="Name" />
-               <key key="taxon" value="Quercus" />
-               <key key="genus" value="Quercus" />
-               <text key="species" text="Species" />
-               <key key="leaf_cycle" value="deciduous" />
-               <key key="leaf_type" value="broadleaved" />
-               <reference ref="tree-denotation" />
-               <reference ref="tree-optional-keys" />
-            </item>
-
-            <item name="Stieleiche" type="node" >
-               <key key="natural" value="tree" />
-               <text key="name" text="Name" />
-               <key key="taxon" value="Quercus robur" />
-               <key key="genus" value="Quercus" />
-               <key key="species" value="Quercus robur" />
-               <key key="leaf_cycle" value="deciduous" />
-               <key key="leaf_type" value="broadleaved" />
-               <reference ref="tree-denotation" />
-               <reference ref="tree-optional-keys" />
-            </item>
-            <item name="Traubeneiche" type="node" >
-               <key key="natural" value="tree" />
-               <text key="name" text="Name" />
-               <key key="taxon" value="Quercus petraea" />
-               <key key="genus" value="Quercus" />
-               <key key="species" value="Quercus petraea" />
-               <key key="leaf_cycle" value="deciduous" />
-               <key key="leaf_type" value="broadleaved" />
-               <reference ref="tree-denotation" />
-               <reference ref="tree-optional-keys" />
-            </item>
-            <item name="Amerikanische Spitzeiche" type="node" >
-               <key key="natural" value="tree" />
-               <text key="name" text="Name" />
-               <key key="taxon" value="Quercus rubra" />
-               <key key="genus" value="Quercus" />
-               <key key="species" value="Quercus rubra" />
-               <key key="leaf_cycle" value="deciduous" />
-               <key key="leaf_type" value="broadleaved" />
-               <reference ref="tree-denotation" />
-               <reference ref="tree-optional-keys" />
-            </item>
-            <item name="Korkeiche" type="node" >
-               <key key="natural" value="tree" />
-               <text key="name" text="Name" />
-               <key key="taxon" value="Quercus suber" />
-               <key key="genus" value="Quercus" />
-               <key key="species" value="Quercus suber" />
-               <key key="leaf_cycle" value="deciduous" />
-               <key key="leaf_type" value="broadleaved" />
-               <reference ref="tree-denotation" />
-               <reference ref="tree-optional-keys" />
-            </item>
-         </group> <!-- Oaks -->
 
          <group name="Pappeln" >
 
@@ -887,18 +973,6 @@
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Gemeine Esche" type="node" >
-            <key key="natural" value="tree" />
-            <text key="name" text="Name" />
-            <key key="taxon" value="Fraxinus excelsior" />
-            <key key="genus" value="Fraxinus" />
-            <key key="species" value="Fraxinus excelsior" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-
          <item name="Schwarzer Holunder" type="node" >
             <key key="natural" value="tree" />
             <text key="name" text="Name" />
@@ -917,18 +991,6 @@
             <key key="taxon" value="Ginkgo biloba" />
             <key key="genus" value="Ginkgo" />
             <key key="species" value="Ginkgo biloba" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-
-         <item name="Schwarz-Erle" type="node" >
-            <key key="natural" value="tree" />
-            <text key="name" text="Name" />
-            <key key="taxon" value="Alnus glutinosa" />
-            <key key="genus" value="Alnus" />
-            <key key="species" value="Alnus glutinosa" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
