@@ -102,7 +102,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
           </optional>
       </item>
 
-      <group name="Coniferales" en.name="Pinales" de.name="Nadelbäume" fr.name="Pinales" >
+      <group name="Coniferales" icon="presets/landmark/trees_conifer.svg" en.name="Pinales" de.name="Nadelbäume" fr.name="Pinales" >
 
          <item name="Coniferales" en.name="unspecified Pinale" de.name="unspezifizierter Nadelbaum" fr.name="nonspécifié pinales" type="node" preset_name_label="true" >
             <reference ref="OSM-wiki-links" />
@@ -296,7 +296,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
          </item>
       </group> <!-- Pinales -->
 
-      <group name="Broad-leaved tree" en.name="Broad-leaved tree" de.name="Laubbäume" fr.name="Feuillus" >
+      <group name="Broad-leaved tree" icon="presets/landmark/trees_broad_leaved.svg" en.name="Broad-leaved tree" de.name="Laubbäume" fr.name="Feuillus" >
 
          <item name="Broad-leaved tree" en.name="unspecified Broad-leaved tree" de.name="unspezifizierter Laubbaum" fr.name="nonspécifié feuillus" type="node" preset_name_label="true" >
             <reference ref="OSM-wiki-links" />
