@@ -67,7 +67,7 @@
             <item name="unspezifizierte Kiefer" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Pinus" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Pinus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="evergreen" />
@@ -152,7 +152,7 @@
             <item name="unspezifizierte Zeder" type="node" >
               <key key="natural" value="tree" />
               <text key="name" text="Name" />
-              <key key="taxon" value="Cedrus" />
+              <text key="taxon" value="Taxon" />
               <key key="genus" value="Cedrus" />
               <text key="species" text="Species" />
               <key key="leaf_cycle" value="evergreen" />
@@ -185,12 +185,50 @@
             </item>
          </group> <!-- Cedars -->
 
+         <group name="Hemlocktannen" >
+
+            <item name="unspezifizierte Hemlocktanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <text key="taxon" value="Taxon" />
+               <key key="genus" value="Tsuga" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Kanadische Hemlocktanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Tsuga canadensis" />
+               <key key="genus" value="Tsuga" />
+               <key key="species" value="Tsuga canadensis" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Westamerikanische Hemlocktanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Tsuga heterophylla" />
+               <key key="genus" value="Tsuga" />
+               <key key="species" value="Tsuga heterophylla" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Hemlock -->
+
          <group name="Tannen" >
 
             <item name="unspezifizierte Tanne" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Abies" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Abies" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="evergreen" />
@@ -250,7 +288,7 @@
             <item name="unspezifizierte Fichte" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Picea" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Picea" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="evergreen" />
@@ -337,7 +375,7 @@
             <item name="unspezifizierter Ahorn" type="node" >
               <key key="natural" value="tree" />
               <text key="name" text="Name" />
-              <key key="taxon" value="Acer" />
+              <text key="taxon" value="Taxon" />
               <key key="genus" value="Acer" />
               <text key="species" text="Species" />
               <key key="leaf_cycle" value="deciduous" />
@@ -445,7 +483,7 @@
             <item name="unspezifizierte Birke" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Betula" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Betula" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -483,7 +521,7 @@
             <item name="unspezifizierte Eiche" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Quercus" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Quercus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -543,7 +581,7 @@
             <item name="unspezifizierte Erle" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Alnus" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Alnus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -592,7 +630,7 @@
             <item name="unspezifizierte Esche" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Fraxinus" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Fraxinus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -626,6 +664,19 @@
          </group> <!-- Ash -->
 
          <group name="Kastanienbäume" >
+
+            <item name="unspezifizierte Rosskastanie" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <text key="taxon" value="Taxon" />
+               <key key="genus" value="Aesculus" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
             <item name="Gewöhnliche Rosskastanie" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
@@ -667,7 +718,7 @@
             <item name="unspezifizierte Linde" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Tilia" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Tilia" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -727,7 +778,7 @@
             <item name="unspezifizierte Pappel" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Populus" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Platanus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -765,7 +816,7 @@
             <item name="Platanus" en.name="unspecified plane" cs.name="" de.name="unspezifizierte Platane" fr.name="nonspécifié platane" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Platanus" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Platanus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -803,7 +854,7 @@
             <item name="unspezifizierte Weide" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Salix" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Salix" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
@@ -943,7 +994,7 @@
             <item name="unspezifizierte Magnolie" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="taxon" value="Magnolia" />
+               <text key="taxon" value="Taxon" />
                <key key="genus" value="Magnolia" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
