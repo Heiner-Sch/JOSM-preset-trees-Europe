@@ -185,28 +185,104 @@
             </item>
          </group> <!-- Cedars -->
 
-         <item name="Gemeine Fichte" type="node" >
-           <key key="natural" value="tree" />
-           <text key="name" text="Name" />
-           <key key="taxon" value="Picea abies" />
-           <key key="genus" value="Picea" />
-           <key key="species" value="Picea abies" />
-           <key key="leaf_cycle" value="evergreen" />
-           <key key="leaf_type" value="needleleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
-         </item>
-         <item name="Blau-Fichte" type="node" >
-           <key key="natural" value="tree" />
-           <text key="name" text="Name" />
-           <key key="taxon" value="Picea pungens" />
-           <key key="genus" value="Picea" />
-           <key key="species" value="Picea pungens" />
-           <key key="leaf_cycle" value="evergreen" />
-           <key key="leaf_type" value="needleleaved" />
-           <reference ref="tree-denotation" />
-           <reference ref="tree-optional-keys" />
-         </item>
+         <group name="Tannen" >
+
+            <item name="unspezifizierte Tanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Abies" />
+               <key key="genus" value="Abies" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Weißtanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Abies alba" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies alba" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Nordmann-Tanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Abies nordmanniana" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies nordmanniana" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Edel-Tanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Abies procera" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies procera" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Kolorado-Tanne" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Abies concolor" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies concolor" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Firs -->
+
+         <group name="Fichten" >
+
+            <item name="unspezifizierte Fichte" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Picea" />
+               <key key="genus" value="Picea" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Gemeine Fichte" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Picea abies" />
+               <key key="genus" value="Picea" />
+               <key key="species" value="Picea abies" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Blau-Fichte" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="taxon" value="Picea pungens" />
+               <key key="genus" value="Picea" />
+               <key key="species" value="Picea pungens" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Picea -->
+
          <item name="Gewöhnliche Douglasie" type="node" >
            <key key="natural" value="tree" />
            <text key="name" text="Name" />
@@ -949,6 +1025,29 @@
             <reference ref="tree-optional-keys" />
          </item>
 
+         <item name="Haselnussstrauch" type="node" >
+            <key key="natural" value="tree" />
+            <text key="name" text="Name" />
+            <key key="taxon" value="Corylus avellana" />
+            <key key="genus" value="Corylus" />
+            <key key="species" value="Corylus avellana" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Baum-Hasel" type="node" >
+            <key key="natural" value="tree" />
+            <text key="name" text="Name" />
+            <key key="taxon" value="Corylus colurna" />
+            <key key="genus" value="Corylus" />
+            <key key="species" value="Corylus colurna" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
          <item name="Vogelbeerbaum (Eberesche)" type="node" >
             <key key="natural" value="tree" />
             <text key="name" text="Name" />
@@ -1003,29 +1102,6 @@
             <key key="taxon" value="Carpinus betulus" />
             <key key="genus" value="Carpinus" />
             <key key="species" value="Carpinus betulus" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-
-         <item name="Haselnussstrauch" type="node" >
-            <key key="natural" value="tree" />
-            <text key="name" text="Name" />
-            <key key="taxon" value="Corylus avellana" />
-            <key key="genus" value="Corylus" />
-            <key key="species" value="Corylus avellana" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-         <item name="Baum-Hasel" type="node" >
-            <key key="natural" value="tree" />
-            <text key="name" text="Name" />
-            <key key="taxon" value="Corylus colurna" />
-            <key key="genus" value="Corylus" />
-            <key key="species" value="Corylus colurna" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />

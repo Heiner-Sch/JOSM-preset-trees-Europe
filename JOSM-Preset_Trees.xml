@@ -236,28 +236,103 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             </item>
          </group> <!-- Cedars -->
 
-         <item name="Picea abies" en.name="european spruce" cs.name="Smrk Ztepilý" de.name="Gemeine Fichte" fr.name="Épicéa commun" type="node" preset_name_label="true" >
-            <space />
-            <key key="natural" value="tree" />
-            <key key="taxon" value="Picea abies" />
-            <key key="genus" value="Picea" />
-            <key key="species" value="Picea abies" />
-            <key key="leaf_cycle" value="evergreen" />
-            <key key="leaf_type" value="needleleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-         <item name="Picea pungens" en.name="blue spruce" cs.name="Smrk pichlavý" de.name="Blau-Fichte" fr.name="Épicéa bleu" type="node" preset_name_label="true" >
-            <space />
-            <key key="natural" value="tree" />
-            <key key="taxon" value="Picea pungens" />
-            <key key="genus" value="Picea" />
-            <key key="species" value="Picea pungens" />
-            <key key="leaf_cycle" value="evergreen" />
-            <key key="leaf_type" value="needleleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
+         <group name="Abies" en.name="Firs" de.name="Tannen" fr.name="Sapins" >
+
+            <item name="Abies" en.name="unspecified fir" de.name="unspezifizierte Tanne" fr.name="nonspécifié sapin" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Abies" />
+               <key key="genus" value="Abies" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Abies alba" en.name="European silver fir" de.name="Weißtanne" fr.name="Sapin commun" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Abies alba" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies alba" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Abies nordmanniana" en.name="Nordmann fir" de.name="Nordmann-Tanne" fr.name="Sapin de Nordmann" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Abies nordmanniana" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies nordmanniana" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Abies procera" en.name="Noble fir" de.name="Edel-Tanne" fr.name="Sapin noble" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Abies procera" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies procera" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Abies concolor" en.name="White fir" de.name="Kolorado-Tanne" fr.name="Sapin du Colorado" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Abies concolor" />
+               <key key="genus" value="Abies" />
+               <key key="species" value="Abies concolor" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Firs -->
+
+         <group name="Picea" en.name="Spruce" de.name="Fichten" fr.name="Épicéa" >
+
+            <item name="Picea" en.name="unspecified spruce" cs.name="" de.name="unspezifizierte Fichte" fr.name="nonspécifié épicéa" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Picea" />
+               <key key="genus" value="Picea" />
+               <text key="species" text="Species" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+
+            <item name="Picea abies" en.name="european spruce" cs.name="Smrk Ztepilý" de.name="Gemeine Fichte" fr.name="Épicéa commun" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Picea abies" />
+               <key key="genus" value="Picea" />
+               <key key="species" value="Picea abies" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Picea pungens" en.name="blue spruce" cs.name="Smrk pichlavý" de.name="Blau-Fichte" fr.name="Épicéa bleu" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="taxon" value="Picea pungens" />
+               <key key="genus" value="Picea" />
+               <key key="species" value="Picea pungens" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+         </group> <!-- Picea -->
 
          <item name="Pseudotsuga menziesii" en.name="Douglas fir" cs.name="Douglaska Tisolistá" de.name="Gewöhnliche Douglasie" fr.name="Douglas vert" type="node" preset_name_label="true" >
             <space />
@@ -454,6 +529,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
          </group> <!-- Birches -->
 
          <group name="Alnus" en.name="Alder" de.name="Erlen" fr.name="Aulnes" >
+
             <item name="Alnus" en.name="unspecified alder" cs.name="" de.name="unspezifizierte Erle" fr.name="nonspécifié aulne" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
@@ -465,6 +541,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+
             <item name="Alnus glutinosa" en.name="black alder" cs.name="Olše Lepkavá" de.name="Schwarz-Erle" fr.name="Aulne glutineux" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
@@ -912,6 +989,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
          </group> <!-- Fruit trees -->
 
          <group name="Magnolia" en.name="Magnolia" de.name="Magnolien" fr.name="Magnolias" >
+
             <item name="Magnolia" en.name="unspecified magnolia" de.name="unspezifizierte Magnolie" fr.name="nonspécifié magnolias" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
@@ -923,6 +1001,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+
             <item name="Magnolia fraseri" en.name="mountain magnolia" de.name="Berg-Magnolie" fr.name="Magnolier de Fraser" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
@@ -996,6 +1075,29 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
 
+         <item name="Corylus avellana" en.name="common hazel" cs.name="Líska Obecná" de.name="Haselnussstrauch" fr.name="Noisetier" type="node" preset_name_label="true" >
+            <space />
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Corylus avellana" />
+            <key key="genus" value="Corylus" />
+            <key key="species" value="Corylus avellana" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Corylus colurna" en.name="Turkish hazel" cs.name="" de.name="Baum-Hasel" fr.name="Noisetier de Byzance" type="node" preset_name_label="true" >
+            <space />
+            <key key="natural" value="tree" />
+            <key key="taxon" value="Corylus colurna" />
+            <key key="genus" value="Corylus" />
+            <key key="species" value="Corylus colurna" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
          <item name="Sorbus aucuparia" en.name="mountain-ash" cs.name="Jeřáb Ptačí" de.name="Vogelbeerbaum (Eberesche)" fr.name="Sorbier des oiseaux" type="node" preset_name_label="true" >
             <space />
             <key key="natural" value="tree" />
@@ -1050,29 +1152,6 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="taxon" value="Carpinus betulus" />
             <key key="genus" value="Carpinus" />
             <key key="species" value="Carpinus betulus" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-
-         <item name="Corylus avellana" en.name="common hazel" cs.name="Líska Obecná" de.name="Haselnussstrauch" fr.name="Noisetier" type="node" preset_name_label="true" >
-            <space />
-            <key key="natural" value="tree" />
-            <key key="taxon" value="Corylus avellana" />
-            <key key="genus" value="Corylus" />
-            <key key="species" value="Corylus avellana" />
-            <key key="leaf_cycle" value="deciduous" />
-            <key key="leaf_type" value="broadleaved" />
-            <reference ref="tree-denotation" />
-            <reference ref="tree-optional-keys" />
-         </item>
-         <item name="Corylus colurna" en.name="Turkish hazel" cs.name="" de.name="Baum-Hasel" fr.name="Noisetier de Byzance" type="node" preset_name_label="true" >
-            <space />
-            <key key="natural" value="tree" />
-            <key key="taxon" value="Corylus colurna" />
-            <key key="genus" value="Corylus" />
-            <key key="species" value="Corylus colurna" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
