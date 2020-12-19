@@ -11,4 +11,11 @@ My first language is German. I've done the existing translation in EN and FR via
 CS is taken from the JOSM preset trees of Petr Schönmann.
 If there are corrections needed, let me know.
 
+Here you can see how to add presets from a file in JOSM:
+https://josm.openstreetmap.de/wiki/Help/Preferences/Map#TaggingPresets
+
+More information about Vespucci presets:
+https://vespucci.io/tutorials/presets/
+
+
 Icons taken from http://www.sjjb.co.uk/mapicons/introduction 
