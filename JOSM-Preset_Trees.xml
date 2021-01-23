@@ -112,7 +112,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <reference ref="tree-optional-keys" />
          </item>
 
-         <group name="Pinus" en.name="Pines" de.name="Kiefern" fr.name="" >
+         <group name="Pinus" en.name="Pines" de.name="Kiefern" fr.name="Pin" >
 
             <item name="Pinus" en.name="unspecified pine" de.name="unspezifizierte Kiefer" fr.name="nonspécifié pin" type="node" preset_name_label="true" >
                <space />
@@ -192,7 +192,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             </item>
          </group> <!-- Hemlock -->
 
-         <group name="Sequoioideae" en.name="Redwoods" de.name="Mammutbäume" fr.name="Sequoioideae" >
+         <group name="Sequoioideae" en.name="Redwoods" de.name="Mammutbäume" fr.name="Séquoia" >
             <item name="Sequoia sempervirens" en.name="coast redwood" de.name="Küstenmammutbaum" fr.name="Séquoia à feuilles d'if" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
@@ -317,7 +317,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
 
          <group name="Picea" en.name="Spruce" de.name="Fichten" fr.name="Épicéa" >
 
-            <item name="Picea" en.name="unspecified spruce" cs.name="" de.name="unspezifizierte Fichte" fr.name="nonspécifié épicéa" type="node" preset_name_label="true" >
+            <item name="Picea" en.name="unspecified spruce" de.name="unspezifizierte Fichte" fr.name="nonspécifié épicéa" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
                <key key="genus" value="Picea" />
@@ -556,7 +556,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Fagus sylvatica Purpurea" en.name="purple beech" de.name="Blutbuche" fr.name="" type="node" preset_name_label="true" >
+            <item name="Fagus sylvatica Purpurea" en.name="purple beech" de.name="Blutbuche" fr.name="Hêtre pourpre" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
                <key key="genus" value="Fagus" />
