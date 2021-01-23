@@ -94,6 +94,16 @@
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
+            <item name="Schwarzkiefer" type="node" >
+              <key key="natural" value="tree" />
+              <text key="name" text="Name" />
+              <key key="genus" value="Pinus" />
+              <key key="species" value="Pinus nigra" />
+              <key key="leaf_cycle" value="evergreen" />
+              <key key="leaf_type" value="needleleaved" />
+              <reference ref="tree-denotation" />
+              <reference ref="tree-optional-keys" />
+            </item>
             <item name="Weymouth-Kiefer" type="node" >
               <key key="natural" value="tree" />
               <text key="name" text="Name" />
@@ -103,6 +113,16 @@
               <key key="leaf_type" value="needleleaved" />
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Zirbelkiefer" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="genus" value="Pinus" />
+               <key key="species" value="Pinus cembra" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
             </item>
          </group> <!-- Pines -->
 
@@ -329,6 +349,16 @@
            <reference ref="tree-denotation" />
            <reference ref="tree-optional-keys" />
          </item>
+         <item name="Gemeiner Wacholder" type="node" >
+            <key key="natural" value="tree" />
+            <text key="name" text="Name" />
+            <key key="genus" value="Juniperus" />
+            <key key="species" value="Juniperus communis" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="needleleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
       </group> <!-- Pinales -->
 
       <group name="Laubbäume" >
@@ -367,7 +397,7 @@
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="Dreispitz-Ahorn" type="node" preset_name_label="true" >
+            <item name="Dreispitz-Ahorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Acer" />
@@ -397,7 +427,7 @@
               <reference ref="tree-denotation" />
               <reference ref="tree-optional-keys" />
             </item>
-            <item name="Französischer Ahorn" type="node" preset_name_label="true" >
+            <item name="Französischer Ahorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Acer" />
@@ -407,7 +437,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Schneeball-Ahorn" type="node" preset_name_label="true" >
+            <item name="Schneeball-Ahorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Acer" />
@@ -472,7 +502,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Himalaya-Birke" type="node" preset_name_label="true" >
+            <item name="Himalaya-Birke" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Betula" />
@@ -482,7 +512,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Papier-Birke" type="node" preset_name_label="true" >
+            <item name="Papier-Birke" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Betula" />
@@ -571,6 +601,16 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="Flaumeiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus pubescens" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
             <item name="Korkeiche" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
@@ -626,7 +666,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Herzblättrige Erle" type="node" preset_name_label="true" >
+            <item name="Herzblättrige Erle" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Alnus" />
@@ -751,7 +791,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Amerikanische Linde" type="node" preset_name_label="true" >
+            <item name="Amerikanische Linde" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Tilia" />
@@ -796,7 +836,7 @@
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="Espe" type="node" preset_name_label="true" >
+            <item name="Espe" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Populus" />
@@ -826,7 +866,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Kanadische Pappel" type="node" preset_name_label="true" >
+            <item name="Kanadische Pappel" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Populus" />
@@ -919,7 +959,7 @@
          </group> <!-- willows -->
 
          <group name="Mehlbeeren" >
-            <item name="Vogelbeerbaum (Eberesche)" type="node" preset_name_label="true" >
+            <item name="Vogelbeerbaum (Eberesche)" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Sorbus" />
@@ -929,7 +969,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Amerikanische Eberesche" type="node" preset_name_label="true" >
+            <item name="Amerikanische Eberesche" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Sorbus" />
@@ -939,7 +979,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Speierling" type="node" preset_name_label="true" >
+            <item name="Speierling" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Sorbus" />
@@ -949,7 +989,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Echte Mehlbeere" type="node" preset_name_label="true" >
+            <item name="Echte Mehlbeere" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Sorbus" />
@@ -959,7 +999,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Schwedische Mehlbeere" type="node" preset_name_label="true" >
+            <item name="Schwedische Mehlbeere" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Sorbus" />
@@ -969,11 +1009,21 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="Elsbeere" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="genus" value="Sorbus" />
+               <key key="species" value="Sorbus torminalis" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
          </group> <!-- sorbus -->
 
          <group name="Ulmen" >
 
-            <item name="unspezifizierte Ulme" type="node" preset_name_label="true" >
+            <item name="unspezifizierte Ulme" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Ulmus" />
@@ -984,7 +1034,7 @@
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="Bergrulme" type="node" preset_name_label="true" >
+            <item name="Bergrulme" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Ulmus" />
@@ -995,7 +1045,7 @@
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="Flatterulme" type="node" preset_name_label="true" >
+            <item name="Flatterulme" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Ulmus" />
@@ -1008,7 +1058,7 @@
          </group> <!-- elm -->
 
          <group name="Obstbäume" >
-            <item name="unspezifizierter Apfelbaum" type="node" preset_name_label="true" >
+            <item name="unspezifizierter Apfelbaum" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Malus" />
@@ -1028,7 +1078,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Holzapfel" type="node" preset_name_label="true" >
+            <item name="Holzapfel" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Malus" />
@@ -1048,7 +1098,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Wildbirne" type="node" preset_name_label="true" >
+            <item name="Wildbirne" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Pyrus" />
@@ -1108,7 +1158,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Gewöhnliche Traubenkirsche" type="node" preset_name_label="true" >
+            <item name="Gewöhnliche Traubenkirsche" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Prunus" />
@@ -1163,7 +1213,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Immergrüne Magnolie" type="node" preset_name_label="true" >
+            <item name="Immergrüne Magnolie" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Magnolia" />
@@ -1173,7 +1223,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Tulpen-Magnolie" type="node" preset_name_label="true" >
+            <item name="Tulpen-Magnolie" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Magnolia" />
@@ -1186,7 +1236,7 @@
          </group> <!-- Magnolia -->
 
          <group name="Nussbäume" >
-            <item name="Schwarznuss" type="node" preset_name_label="true" >
+            <item name="Schwarznuss" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Juglans" />
@@ -1231,7 +1281,7 @@
 
          <group name="Crataegus" en.name="hawthorn" de.name="Weißdorne" fr.name="Aubépine" >
 
-            <item name="unspezifizierter Weißdorn" type="node" preset_name_label="true" >
+            <item name="unspezifizierter Weißdorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Crataegus" />
@@ -1242,7 +1292,7 @@
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="Lederblättrigen Weißdorn" type="node" preset_name_label="true" >
+            <item name="Lederblättrigen Weißdorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Crataegus" />
@@ -1252,7 +1302,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Eingriffeliger Weißdorn" type="node" preset_name_label="true" >
+            <item name="Eingriffeliger Weißdorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Crataegus" />
@@ -1262,7 +1312,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Großkelchiger Weißdorn" type="node" preset_name_label="true" >
+            <item name="Großkelchiger Weißdorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Crataegus" />
@@ -1272,7 +1322,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Hahnensporn-Weißdorn" type="node" preset_name_label="true" >
+            <item name="Hahnensporn-Weißdorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Crataegus" />
@@ -1282,7 +1332,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Gemeiner Weißdorn" type="node" preset_name_label="true" >
+            <item name="Gemeiner Weißdorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Crataegus" />
@@ -1292,7 +1342,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Echter Rotdorn" type="node" preset_name_label="true" >
+            <item name="Echter Rotdorn" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Crataegus" />
@@ -1306,7 +1356,7 @@
 
          <group name="Zürgelbäume" >
 
-            <item name="unspezifizierter Zürgelbaum" type="node" preset_name_label="true" >
+            <item name="unspezifizierter Zürgelbaum" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Celtis" />
@@ -1317,7 +1367,7 @@
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="Amerikanischer Zürgelbaum" type="node" preset_name_label="true" >
+            <item name="Amerikanischer Zürgelbaum" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Celtis" />
@@ -1327,7 +1377,7 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
-            <item name="Europäischer Zürgelbaum" type="node" preset_name_label="true" >
+            <item name="Europäischer Zürgelbaum" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Celtis" />
@@ -1416,7 +1466,7 @@
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Götterbaum" type="node" preset_name_label="true" >
+         <item name="Götterbaum" type="node" >
             <key key="natural" value="tree" />
             <text key="name" text="Name" />
             <key key="genus" value="Ailanthus" />
@@ -1427,7 +1477,7 @@
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Gewöhnlicher Judasbaum" type="node" preset_name_label="true" >
+         <item name="Gewöhnlicher Judasbaum" type="node" >
             <key key="natural" value="tree" />
             <text key="name" text="Name" />
             <key key="genus" value="Cercis" />
@@ -1449,7 +1499,7 @@
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Gemeine Hopfenbuche" type="node" preset_name_label="true" >
+         <item name="Gemeine Hopfenbuche" type="node" >
             <key key="natural" value="tree" />
             <text key="name" text="Name" />
             <key key="genus" value="Ostrya" />
@@ -1460,7 +1510,7 @@
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Kaukasische Flügelnuss" type="node" preset_name_label="true" >
+         <item name="Kaukasische Flügelnuss" type="node" >
             <key key="natural" value="tree" />
             <text key="name" text="Name" />
             <key key="genus" value="Pterocarya" />
@@ -1471,12 +1521,23 @@
             <reference ref="tree-optional-keys" />
          </item>
 
-         <item name="Schnurbaum" type="node" preset_name_label="true" >
+         <item name="Schnurbaum" type="node" >
             <key key="natural" value="tree" />
             <text key="name" text="Name" />
             <key key="genus" value="Styphnolobium" />
             <key key="species" value="Styphnolobium japonicum" />
             <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Europäische Stechpalme" type="node" >
+            <key key="natural" value="tree" />
+            <text key="name" text="Name" />
+            <key key="genus" value="Ilex" />
+            <key key="species" value="Ilex aquifolium" />
+            <key key="leaf_cycle" value="evergreen" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />

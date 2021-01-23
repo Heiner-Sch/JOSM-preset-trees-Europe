@@ -145,11 +145,31 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="Pinus nigra" en.name="black pine" de.name="Schwarzkiefer" fr.name="Pin noir" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="genus" value="Pinus" />
+               <key key="species" value="Pinus nigra" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
             <item name="Pinus strobus" en.name="Weymouth pine" de.name="Weymouth-Kiefer" fr.name="Pin blanc" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
                <key key="genus" value="Pinus" />
                <key key="species" value="Pinus strobus" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="needleleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Pinus cembra" en.name="Swiss pine" de.name="Zirbelkiefer" fr.name="Pin des Alpes" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="genus" value="Pinus" />
+               <key key="species" value="Pinus cembra" />
                <key key="leaf_cycle" value="evergreen" />
                <key key="leaf_type" value="needleleaved" />
                <reference ref="tree-denotation" />
@@ -375,6 +395,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="natural" value="tree" />
             <key key="genus" value="Larix" />
             <key key="species" value="Larix decidua" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="needleleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+         <item name="Juniperus communis" en.name="common juniper" de.name="Gemeiner Wacholder" fr.name="Genévrier commun" type="node" preset_name_label="true" >
+            <space />
+            <key key="natural" value="tree" />
+            <key key="genus" value="Juniperus" />
+            <key key="species" value="Juniperus communis" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="needleleaved" />
             <reference ref="tree-denotation" />
@@ -821,6 +851,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="Quercus pubescens" en.name="downy oak" de.name="Flaumeiche" fr.name="Chêne pubescent" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus pubescens" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
             <item name="Quercus suber" en.name="cork oak" de.name="Korkeiche" fr.name="Chêne-liège" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
@@ -1014,6 +1054,16 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <key key="natural" value="tree" />
                <key key="genus" value="Sorbus" />
                <key key="species" value="Sorbus intermedia" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Sorbus torminalis" en.name="wild service tree" de.name="Elsbeere" fr.name="Alisier torminal" type="node" preset_name_label="true" >
+               <space />
+               <key key="natural" value="tree" />
+               <key key="genus" value="Sorbus" />
+               <key key="species" value="Sorbus torminalis" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -1527,6 +1577,17 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <key key="genus" value="Styphnolobium" />
             <key key="species" value="Styphnolobium japonicum" />
             <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Ilex aquifolium" en.name="common holly" de.name="Europäische Stechpalme" fr.name="Houx" type="node" preset_name_label="true" >
+            <space />
+            <key key="natural" value="tree" />
+            <key key="genus" value="Ilex" />
+            <key key="species" value="Ilex aquifolium" />
+            <key key="leaf_cycle" value="evergreen" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
             <reference ref="tree-optional-keys" />
