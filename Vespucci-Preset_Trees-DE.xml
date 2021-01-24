@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="HeinerSchaefer"
-  version="0.2 2020-12"
+  version="0.5 2021-01"
   shortdescription="Baumnamen in einem Menü strukturiert"
   description="Baumnamen im Menü">
 
