@@ -7,15 +7,12 @@ There are for sure species missing.
 If you send me missing important trees, I'm going to add them.
 
 The idea is a multilingual preset.
-My first language is German. I've done the existing translation in EN and FR via Wikipedia.
-CS is taken from the JOSM preset trees of Petr Schönmann.
+My first language is German. I've done most of the existing translation in EN and FR via Wikipedia.
 If there are corrections needed, let me know.
 
 Here you can see how to add presets from a file in JOSM:
 https://josm.openstreetmap.de/wiki/Help/Preferences/Map#TaggingPresets
 
+There is also a preset for Vespucci. In the moment it's only in German.
 More information about Vespucci presets:
 https://vespucci.io/tutorials/presets/
-
-
-Icons taken from http://www.sjjb.co.uk/mapicons/introduction 
