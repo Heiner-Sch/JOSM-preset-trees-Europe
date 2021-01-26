@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="HeinerSchaefer"
-  version="0.5 2021-01"
+  version="0.51 2021-01"
   shortdescription="Baumnamen in einem Menü strukturiert"
   description="Baumnamen im Menü">
 
@@ -611,11 +611,31 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="Steineiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus ilex" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
             <item name="Korkeiche" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Quercus" />
                <key key="species" value="Quercus suber" />
+               <key key="leaf_cycle" value="deciduous" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
+            <item name="Zerreiche" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="genus" value="Quercus" />
+               <key key="species" value="Quercus cerris" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
@@ -1178,6 +1198,16 @@
                <reference ref="tree-denotation" />
                <reference ref="tree-optional-keys" />
             </item>
+            <item name="Olivenbaum" type="node" >
+               <key key="natural" value="tree" />
+               <text key="name" text="Name" />
+               <key key="genus" value="Olea" />
+               <key key="species" value="Olea europaea" />
+               <key key="leaf_cycle" value="evergreen" />
+               <key key="leaf_type" value="broadleaved" />
+               <reference ref="tree-denotation" />
+               <reference ref="tree-optional-keys" />
+            </item>
             <item name="Japanische Blütenkirsche" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
@@ -1460,6 +1490,17 @@
             <text key="name" text="Name" />
             <key key="genus" value="Ginkgo" />
             <key key="species" value="Ginkgo biloba" />
+            <key key="leaf_cycle" value="deciduous" />
+            <key key="leaf_type" value="broadleaved" />
+            <reference ref="tree-denotation" />
+            <reference ref="tree-optional-keys" />
+         </item>
+
+         <item name="Amerikanische Gleditschie" type="node" >
+            <key key="natural" value="tree" />
+            <text key="name" text="Name" />
+            <key key="genus" value="Gleditsia" />
+            <key key="species" value="Gleditsia triacanthos" />
             <key key="leaf_cycle" value="deciduous" />
             <key key="leaf_type" value="broadleaved" />
             <reference ref="tree-denotation" />
