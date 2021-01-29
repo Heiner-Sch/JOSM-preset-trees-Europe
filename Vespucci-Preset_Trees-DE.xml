@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="HeinerSchaefer"
-  version="0.51 2021-01"
+  version="0.52 2021-01"
   shortdescription="Baumnamen in einem Menü strukturiert"
   description="Baumnamen im Menü">
 
@@ -848,7 +848,7 @@
             <item name="unspezifizierte Pappel" type="node" >
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
-               <key key="genus" value="Platanus" />
+               <key key="genus" value="Populus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
@@ -915,7 +915,7 @@
                <key key="natural" value="tree" />
                <text key="name" text="Name" />
                <key key="genus" value="Platanus" />
-               <key key="species" value="Platanus acerifolia" />
+               <key key="species" value="Platanus x acerifolia" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />

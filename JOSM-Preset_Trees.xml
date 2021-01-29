@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="HeinerSchaefer"
-  version="0.51 2021-01"
+  version="0.52 2021-01"
   shortdescription="Tree names in a menu with structure"
   de.shortdescription="Baumnamen in einem Menü strukturiert"
   description="Tree names in a menu"
@@ -898,7 +898,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
             <item name="Populus" en.name="unspecified poplar" de.name="unspezifizierte Pappel" fr.name="Peuplier non spécifié" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
-               <key key="genus" value="Platanus" />
+               <key key="genus" value="Populus" />
                <text key="species" text="Species" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
@@ -965,7 +965,7 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <space />
                <key key="natural" value="tree" />
                <key key="genus" value="Platanus" />
-               <key key="species" value="Platanus acerifolia" />
+               <key key="species" value="Platanus x acerifolia" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
