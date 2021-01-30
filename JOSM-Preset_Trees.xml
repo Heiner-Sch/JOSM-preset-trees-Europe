@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="HeinerSchaefer"
-  version="0.52 2021-01"
+  version="0.53 2021-01"
   shortdescription="Tree names in a menu with structure"
   de.shortdescription="Baumnamen in einem Menü strukturiert"
   description="Tree names in a menu"
@@ -961,11 +961,11 @@ leaf_type:  values="broadleaved,needleleaved,leafless"
                <reference ref="tree-optional-keys" />
             </item>
 
-            <item name="Platanus acerifolia" en.name="London plane" de.name="Ahornblättrige Platane" fr.name="Platane commun" type="node" preset_name_label="true" >
+            <item name="Platanus × hispanica" en.name="London plane" de.name="Ahornblättrige Platane" fr.name="Platane commun" type="node" preset_name_label="true" >
                <space />
                <key key="natural" value="tree" />
                <key key="genus" value="Platanus" />
-               <key key="species" value="Platanus x acerifolia" />
+               <key key="species" value="Platanus × hispanica" />
                <key key="leaf_cycle" value="deciduous" />
                <key key="leaf_type" value="broadleaved" />
                <reference ref="tree-denotation" />
