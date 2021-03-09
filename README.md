@@ -13,7 +13,5 @@ If there are corrections needed, let me know.
 Here you can see how to add presets from a file in JOSM:
 https://josm.openstreetmap.de/wiki/Help/Preferences/Map#TaggingPresets
 
-There is also a preset for Vespucci. But here are the tree rows not includet now.
-In the moment it's only in German.
-More information about Vespucci presets:
-https://vespucci.io/tutorials/presets/
+There is also a preset for Vespucci:
+https://github.com/Heiner-Sch/Vespucci-preset-trees-Europe
