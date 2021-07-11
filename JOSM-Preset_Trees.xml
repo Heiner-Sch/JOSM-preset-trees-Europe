@@ -136,6 +136,12 @@
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
         </chunk>
+        <chunk id="Cedrus_libani" >
+           <key key="genus" value="Cedrus" />
+           <key key="species" value="Cedrus libani" />
+           <key key="leaf_cycle" value="evergreen" />
+           <key key="leaf_type" value="needleleaved" />
+        </chunk>
     <!-- Cedrus -->
 
     <!-- Picea -->
@@ -1011,6 +1017,12 @@
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="broadleaved" />
         </chunk>
+        <chunk id="Parrotia_persica" >
+           <key key="genus" value="Parrotia" />
+           <key key="species" value="Parrotia persica" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+        </chunk>
 <!-- Broad-leaved trees -->
 
 
@@ -1127,6 +1139,11 @@
                     <space />
                     <reference ref="tree-keys" />
                     <reference ref="Cedrus_deodara" />
+                </item>
+                <item name="Cedrus libani" en.name="cedar of Lebanon" de.name="Libanon-Zeder" fr.name="Cèdre du Liban" type="node" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-keys" />
+                    <reference ref="Cedrus_libani" />
                 </item>
             </group> <!-- Cedrus -->
 
@@ -1855,6 +1872,12 @@
                 <reference ref="Ilex_aquifolium" />
             </item>
 
+            <item name="Parrotia persica" en.name="Persian ironwood" de.name="Eisenbaum" fr.name="arbre de fer" type="node" preset_name_label="true" >
+                <space />
+                <reference ref="tree-keys" />
+                <reference ref="Parrotia_persica" />
+            </item>
+
         </group> <!-- Broad-leaved trees -->
 
     </group> <!-- trees -->
@@ -1975,6 +1998,11 @@
                     <space />
                     <reference ref="tree-row-keys" />
                     <reference ref="Cedrus_deodara" />
+                </item>
+                <item name="Cedrus libani" en.name="cedar of Lebanon" de.name="Libanon-Zeder" fr.name="Cèdre du Liban" type="way" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-row-keys" />
+                    <reference ref="Cedrus_libani" />
                 </item>
             </group> <!-- Cedrus -->
 
@@ -2702,6 +2730,12 @@
                 <space />
                 <reference ref="tree-row-keys" />
                 <reference ref="Ilex_aquifolium" />
+            </item>
+
+            <item name="Parrotia persica" en.name="Persian ironwood" de.name="Eisenbaum" fr.name="arbre de fer" type="way" preset_name_label="true" >
+                <space />
+                <reference ref="tree-row-keys" />
+                <reference ref="Parrotia_persica" />
             </item>
 
         </group> <!-- Broad-leaved trees -->
