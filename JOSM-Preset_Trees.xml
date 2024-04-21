@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="HeinerSchaefer"
-  version="0.8 2021-07"
+  version="0.9 2024-04"
   shortdescription="Tree names in a menu with structure"
   de.shortdescription="Baumnamen in einem Menü strukturiert"
   description="Tree names in a menu for trees and tree rows"
@@ -490,12 +490,6 @@
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
         </chunk>
-        <chunk id="Crataegus_laevigata_Pauls_Scarlet" >
-           <key key="genus" value="Crataegus" />
-           <key key="species" value="Crataegus laevigata Paul’s Scarlet" />
-           <key key="leaf_cycle" value="deciduous" />
-           <key key="leaf_type" value="broadleaved" />
-        </chunk>
     <!-- Crataegus -->
 
     <!-- Corylus -->
@@ -736,6 +730,30 @@
         <chunk id="Salix_caprea" >
            <key key="genus" value="Salix" />
            <key key="species" value="Salix caprea" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+        </chunk>
+        <chunk id="Salix_viminalis" >
+           <key key="genus" value="Salix" />
+           <key key="species" value="Salix viminalis" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+        </chunk>
+        <chunk id="Salix_fragilis" >
+           <key key="genus" value="Salix" />
+           <key key="species" value="Salix fragilis" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+        </chunk>
+        <chunk id="Salix_pentandra" >
+           <key key="genus" value="Salix" />
+           <key key="species" value="Salix pentandra" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+        </chunk>
+        <chunk id="Salix_nigra" >
+           <key key="genus" value="Salix" />
+           <key key="species" value="Salix nigra" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
         </chunk>
@@ -1541,6 +1559,26 @@
                     <reference ref="tree-keys" />
                     <reference ref="Salix_caprea" />
                 </item>
+                <item name="Salix viminalis" en.name="Basket willow" de.name="Korb-Weide" fr.name="Saule des vanniers" type="node" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-keys" />
+                    <reference ref="Salix_viminalis" />
+                </item>
+                <item name="Salix viminalis" en.name="Eastern crack-willow" de.name="Bruch-Weide" fr.name="Saule fragile" type="node" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-keys" />
+                    <reference ref="Salix_fragilis" />
+                </item>
+                <item name="Salix pentandra" en.name="Bay willow" de.name="Lorbeer-Weide" fr.name="Saule à cinq étamines" type="node" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-keys" />
+                    <reference ref="Salix_pentandra" />
+                </item>
+                <item name="Salix nigra" en.name="Black willow" de.name="Amerikanische Schwarz-Weide" fr.name="Saule noir" type="node" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-keys" />
+                    <reference ref="Salix_pentandra" />
+                </item>
             </group> <!-- Salix -->
 
             <group name="Sorbus" en.name="Sorbus" de.name="Mehlbeeren" fr.name="Sorbiers" >
@@ -1749,11 +1787,6 @@
                     <space />
                     <reference ref="tree-keys" />
                     <reference ref="Crataegus_laevigata" />
-                </item>
-                <item name="Crataegus laevigata Paul’s Scarlet" en.name="Red-thorn" de.name="Echter Rotdorn" fr.name="Épine rouge" type="node" preset_name_label="true" >
-                    <space />
-                    <reference ref="tree-keys" />
-                    <reference ref="Crataegus_laevigata_Pauls_Scarlet" />
                 </item>
             </group> <!-- Crataegus -->
 
@@ -2401,6 +2434,26 @@
                     <reference ref="tree-row-keys" />
                     <reference ref="Salix_caprea" />
                 </item>
+                <item name="Salix viminalis" en.name="Basket willow" de.name="Korb-Weide" fr.name="Saule des vanniers" type="way" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-row-keys" />
+                    <reference ref="Salix_viminalis" />
+                </item>
+                <item name="Salix viminalis" en.name="Eastern crack-willow" de.name="Bruch-Weide" fr.name="Saule fragile" type="way" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-row-keys" />
+                    <reference ref="Salix_fragilis" />
+                </item>
+                <item name="Salix pentandra" en.name="Bay willow" de.name="Lorbeer-Weide" fr.name="Saule à cinq étamines" type="way" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-row-keys" />
+                    <reference ref="Salix_pentandra" />
+                </item>
+                <item name="Salix nigra" en.name="Black willow" de.name="Amerikanische Schwarz-Weide" fr.name="Saule noir" type="way" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-row-keys" />
+                    <reference ref="Salix_pentandra" />
+                </item>
             </group> <!-- Salix -->
 
             <group name="Sorbus" en.name="Sorbus" de.name="Mehlbeeren" fr.name="Sorbiers" >
@@ -2609,11 +2662,6 @@
                     <space />
                     <reference ref="tree-row-keys" />
                     <reference ref="Crataegus_laevigata" />
-                </item>
-                <item name="Crataegus laevigata Paul’s Scarlet" en.name="Red-thorn" de.name="Echter Rotdorn" fr.name="Épine rouge" type="way" preset_name_label="true" >
-                    <space />
-                    <reference ref="tree-row-keys" />
-                    <reference ref="Crataegus_laevigata_Pauls_Scarlet" />
                 </item>
             </group> <!-- Crataegus -->
 
