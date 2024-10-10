@@ -202,6 +202,12 @@
             <key key="leaf_cycle" value="evergreen" />
             <key key="leaf_type" value="needleleaved" />
          </chunk>
+         <chunk id="Pinus_wallichiana" >
+            <key key="genus" value="Pinus" />
+            <key key="species" value="Pinus wallichiana" />
+            <key key="leaf_cycle" value="evergreen" />
+            <key key="leaf_type" value="needleleaved" />
+         </chunk>
     <!-- Pinus -->
 
     <!-- Tsuga -->
@@ -255,6 +261,12 @@
         <chunk id="Taxus_baccata" >
            <key key="genus" value="Taxus" />
            <key key="species" value="Taxus baccata" />
+           <key key="leaf_cycle" value="evergreen" />
+           <key key="leaf_type" value="needleleaved" />
+        </chunk>
+        <chunk id="Taxodium_distichum" >
+           <key key="genus" value="Taxodium" />
+           <key key="species" value="Taxodium distichum" />
            <key key="leaf_cycle" value="evergreen" />
            <key key="leaf_type" value="needleleaved" />
         </chunk>
@@ -667,6 +679,12 @@
         <chunk id="Quercus_robur" >
            <key key="genus" value="Quercus" />
            <key key="species" value="Quercus robur" />
+           <key key="leaf_cycle" value="deciduous" />
+           <key key="leaf_type" value="broadleaved" />
+        </chunk>
+        <chunk id="Quercus_palustris" >
+           <key key="genus" value="Quercus" />
+           <key key="species" value="Quercus palustris" />
            <key key="leaf_cycle" value="deciduous" />
            <key key="leaf_type" value="broadleaved" />
         </chunk>
@@ -1102,6 +1120,11 @@
                     <reference ref="tree-keys" />
                     <reference ref="Pinus_cembra" />
                 </item>
+                <item name="Pinus wallichiana" en.name="Bhutan pine" de.name="Tränen-Kiefer" fr.name="Pin de l'Himalaya" type="node" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-keys" />
+                    <reference ref="Pinus_wallichiana" />
+                </item>
             </group> <!-- Pinus -->
 
             <group name="Tsuga" en.name="Hemlock" de.name="Hemlocktannen" fr.name="Pruches" >
@@ -1232,6 +1255,11 @@
                 <space />
                 <reference ref="tree-keys" />
                 <reference ref="Juniperus_communis" />
+            </item>
+            <item name="Taxodium distichum" en.name="Baldcypress" de.name="Echte Sumpfzypresse" fr.name="Cyprès chauve" type="node" preset_name_label="true" >
+                <space />
+                <reference ref="tree-keys" />
+                <reference ref="Taxodium_distichum" />
             </item>
             </group> <!-- Coniferales -->
 
@@ -1466,6 +1494,11 @@
                     <space />
                     <reference ref="tree-keys" />
                     <reference ref="Quercus_rubra" />
+                </item>
+                <item name="Quercus palustris" en.name="Pin oak" de.name="Sumpf-Eiche" fr.name="Chêne des marais" type="node" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-keys" />
+                    <reference ref="Quercus_palustris" />
                 </item>
                 <item name="Quercus pubescens" en.name="Downy oak" de.name="Flaumeiche" fr.name="Chêne pubescent" type="node" preset_name_label="true" >
                     <space />
