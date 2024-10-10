@@ -2009,6 +2009,11 @@
                     <reference ref="tree-row-keys" />
                     <reference ref="Pinus_cembra" />
                 </item>
+                <item name="Pinus wallichiana" en.name="Bhutan pine" de.name="Tränen-Kiefer" fr.name="Pin de l'Himalaya" type="way" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-row-keys" />
+                    <reference ref="Pinus_wallichiana" />
+                </item>
             </group> <!-- Pinus -->
 
             <group name="Tsuga" en.name="Hemlock" de.name="Hemlocktannen" fr.name="Pruches" >
@@ -2139,6 +2144,11 @@
                 <space />
                 <reference ref="tree-row-keys" />
                 <reference ref="Juniperus_communis" />
+            </item>
+            <item name="Taxodium distichum" en.name="Baldcypress" de.name="Echte Sumpfzypresse" fr.name="Cyprès chauve" type="way" preset_name_label="true" >
+                <space />
+                <reference ref="tree-row-keys" />
+                <reference ref="Taxodium_distichum" />
             </item>
 
         </group> <!-- Coniferales -->
@@ -2364,6 +2374,11 @@
                     <space />
                     <reference ref="tree-row-keys" />
                     <reference ref="Quercus_robur" />
+                </item>
+                <item name="Quercus palustris" en.name="Pin oak" de.name="Sumpf-Eiche" fr.name="Chêne des marais" type="way" preset_name_label="true" >
+                    <space />
+                    <reference ref="tree-row-keys" />
+                    <reference ref="Quercus_palustris" />
                 </item>
                 <item name="Quercus petraea" en.name="Sessile oak" de.name="Traubeneiche" fr.name="Chêne rouvre" type="way" preset_name_label="true" >
                     <space />
